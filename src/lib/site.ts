@@ -16,6 +16,6 @@ export const AUTHORS: Author[] = [
 ];
 
 // TODO: replace with the arXiv URL once posted.
-export const PAPER_URL = '/arxiv.pdf';
+export const PAPER_URL = '/paper.pdf';
 export const CONTACT_EMAIL = 'jessicadai@berkeley.edu';
 export const CODE_URL = 'https://github.com/rchatgpt-pulse/rchatgpt-pulse.github.io';
