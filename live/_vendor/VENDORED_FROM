@@ -1,0 +1,23 @@
+Source: jessica-dai/reddit_online @ bcdea8adfc23a2bd51e333f36a495859d2f58207
+Date: 2026-04-28
+
+Vendored modules:
+  - sequential_test.py (verbatim)
+  - sae.py (verbatim)
+  - utils.py (relative-import patch only)
+  - utils_embedding.py (relative-import patch only)
+  - config.py (NEW minimal stub for EMBEDDING_CACHE_DIR / PROMPTS_DIR / etc.)
+
+Local edits applied:
+  - Replaced `from config import ...` with `from .config import ...`
+  - Replaced `from utils import ...` with `from .utils import ...`
+
+Deferred to Phase 9 (retrain):
+  - utils_cache.py (load_features / load_labels / compute_cache_dir)
+  - base.py (SAELearner._cluster_online for warm-start retrain)
+  - export_web_data.py
+  - analyzer.py
+
+reddit_online is now FROZEN. Do not pull updates from it.
+If a bug surfaces in vendored code, fix it directly in live/_vendor/
+and note the change here.

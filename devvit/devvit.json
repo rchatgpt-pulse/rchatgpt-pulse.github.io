@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "publicfeedbackai",
+  "permissions": {
+    "http": {
+      "domains": ["api.github.com"]
+    }
+  },
+  "post": {
+    "dir": "public",
+    "entrypoints": {
+      "default": {
+        "inline": true,
+        "entry": "splash.html"
+      },
+      "game": {
+        "entry": "game.html"
+      }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.js"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Create a new post",
+        "description": "publicfeedbackai",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/post-create"
+      },
+      {
+        "label": "Run scrape now (debug)",
+        "description": "Manually trigger the daily r/ChatGPT scrape and commit a JSONL to GitHub",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/scrape-now"
+      },
+      {
+        "label": "Clear seen_ids (debug)",
+        "description": "Reset the Redis dedup cache so the next scrape will see all posts again",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/clear-seen"
+      }
+    ]
+  },
+  "triggers": {
+    "onAppInstall": "/internal/on-app-install"
+  },
+  "scheduler": {
+    "tasks": {
+      "daily-scrape": {
+        "endpoint": "/internal/scrape",
+        "cron": "0 7 * * *"
+      }
+    }
+  },
+  "settings": {
+    "global": {
+      "github_pat": {
+        "label": "GitHub fine-grained PAT (Contents:RW on jessica-dai/r-chatgpt)",
+        "type": "string",
+        "isSecret": true
+      }
+    }
+  },
+  "scripts": {
+    "dev": "node --experimental-strip-types ./tools/build.ts --watch",
+    "build": "node --experimental-strip-types ./tools/build.ts --minify"
+  },
+  "dev": {
+    "subreddit": "publicfeedbackai_dev"
+  }
+}

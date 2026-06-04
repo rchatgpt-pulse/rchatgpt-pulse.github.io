@@ -1,0 +1,47 @@
+/* Theme tokens — Cool Editorial.
+   Components consume these via var(--color-*) directly. */
+
+:root {
+  /* Fraunces variable-axes presets — tune SOFT to change feel globally. */
+  --fvs-display: "opsz" 144, "SOFT" 50, "wght" 700;
+  --fvs-title:   "opsz" 60,  "SOFT" 50, "wght" 600;
+  --fvs-heading: "opsz" 24,  "SOFT" 50, "wght" 600;
+  --fvs-body:    "opsz" 14,  "SOFT" 50, "wght" 500;
+
+  --color-neutral-400: #9ca3af;
+
+  --color-badge-marginal-bg:   #fef3c7;
+  --color-badge-marginal-text: #92400e;
+  --color-badge-peak-bg:       #f3e8ff;
+  --color-badge-peak-text:     #7e22ce;
+
+  --color-accent:     #4a4a8a;
+  --color-accent-50:  #ecedf5;
+  --color-accent-100: #d8daeb;
+  --color-accent-200: #b6b9d7;
+  --color-accent-600: var(--color-accent);
+  --color-accent-700: #33336a;
+  --color-accent-800: #22224a;
+
+  --color-bg:           #fbfaf7;
+  --color-surface:      #ffffff;
+  --color-border:       #eae8e3;
+  --color-border-hover: var(--color-accent-200);
+
+  --color-text-primary:   #1a1a1f;
+  --color-text-secondary: #5a5a63;
+  --color-text-muted:     #9a9aa3;
+
+  --color-increase:     #2e6e57;
+  --color-increase-50:  #e6efea;
+  --color-increase-600: var(--color-increase);
+  --color-increase-700: #1f4d3c;
+
+  --color-decrease:     #a83a4a;
+  --color-decrease-50:  #f3e3e6;
+  --color-decrease-600: var(--color-decrease);
+  --color-decrease-700: #732533;
+
+  --radius-card:    6px;
+  --radius-control: 4px;
+}

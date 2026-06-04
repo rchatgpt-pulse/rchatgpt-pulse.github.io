@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+@import "./theme.css";
+
+/* Map CSS variables to Tailwind utility classes via @theme */
+@theme {
+  --font-heading: 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+  --font-body: 'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+
+  --color-accent-50: var(--color-accent-50);
+  --color-accent-100: var(--color-accent-100);
+  --color-accent-200: var(--color-accent-200);
+  --color-accent-600: var(--color-accent-600);
+  --color-accent-700: var(--color-accent-700);
+  --color-accent-800: var(--color-accent-800);
+
+  --color-increase-50: var(--color-increase-50);
+  --color-increase-600: var(--color-increase-600);
+  --color-increase-700: var(--color-increase-700);
+
+  --color-decrease-50: var(--color-decrease-50);
+  --color-decrease-600: var(--color-decrease-600);
+  --color-decrease-700: var(--color-decrease-700);
+
+  --color-neutral-400: var(--color-neutral-400);
+
+  --color-badge-marginal-bg: var(--color-badge-marginal-bg);
+  --color-badge-marginal-text: var(--color-badge-marginal-text);
+  --color-badge-peak-bg: var(--color-badge-peak-bg);
+  --color-badge-peak-text: var(--color-badge-peak-text);
+
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-border: var(--color-border);
+  --color-border-hover: var(--color-border-hover);
+
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+@keyframes rep-live-pulse {
+  0%   { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-increase) 45%, transparent); }
+  70%  { box-shadow: 0 0 0 6px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.rep-live-pulse { animation: rep-live-pulse 2s infinite; }

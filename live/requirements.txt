@@ -1,0 +1,7 @@
+numpy
+torch
+tqdm
+openai
+tiktoken
+pandas
+pyarrow

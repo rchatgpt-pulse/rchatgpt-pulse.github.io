@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "publicfeedbackai",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "build": "node --experimental-strip-types ./tools/build.ts --minify",
+    "deploy": "npm run build && devvit upload",
+    "dev": "devvit playtest",
+    "login": "devvit login",
+    "launch": "npm run build && npm run deploy && devvit publish",
+    "type-check": "tsc --build"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "dependencies": {
+    "@devvit/web": "0.12.22",
+    "devvit": "0.12.22"
+  },
+  "devDependencies": {
+    "@types/node": "22.12.0",
+    "typescript": "5.9.3",
+    "esbuild": "0.27.2"
+  }
+}

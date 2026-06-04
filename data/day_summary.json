@@ -1,0 +1,71 @@
+{
+  "date": "2026-05-13",
+  "n_posts_raw": 172,
+  "n_posts_scored": 172,
+  "day_error": 0.7501421570777893,
+  "training_error": 0.7201769351959229,
+  "model_version": "v1",
+  "trained_through": "2025-12-01",
+  "top_features": [
+    {
+      "idx": 48,
+      "label": "contains playful, imaginative, or surreal descriptions involving fantasy elements or unusual scenarios",
+      "mean_activation": 0.1827889084815979,
+      "n_active": 91
+    },
+    {
+      "idx": 47,
+      "label": "mentions the term 'AI' explicitly in the text",
+      "mean_activation": 0.07533692568540573,
+      "n_active": 38
+    },
+    {
+      "idx": 58,
+      "label": "contains discussions or requests specifically about image generation or manipulation",
+      "mean_activation": 0.05226197466254234,
+      "n_active": 34
+    },
+    {
+      "idx": 15,
+      "label": "contains references to or excerpts from AI jailbreaks, model alignment critiques, or discussions about AI system limitations and internal behaviors",
+      "mean_activation": 0.043443817645311356,
+      "n_active": 25
+    },
+    {
+      "idx": 39,
+      "label": "contains explicit references to 'prompts' or 'prompt engineering' and discussions on how to write, improve, or manage prompts",
+      "mean_activation": 0.02752869948744774,
+      "n_active": 17
+    },
+    {
+      "idx": 41,
+      "label": "mentions 'chatgpt' explicitly in the text",
+      "mean_activation": 0.025726601481437683,
+      "n_active": 25
+    },
+    {
+      "idx": 16,
+      "label": "mentions Sam Altman and his firing or removal from OpenAI",
+      "mean_activation": 0.02364230901002884,
+      "n_active": 12
+    },
+    {
+      "idx": 51,
+      "label": "contains detailed descriptions of self-built AI tools, apps, or software projects aimed at solving specific problems or automating tasks",
+      "mean_activation": 0.023037727922201157,
+      "n_active": 18
+    },
+    {
+      "idx": 8,
+      "label": "contains requests to create or generate images based on personal personality traits or characteristics",
+      "mean_activation": 0.021668730303645134,
+      "n_active": 17
+    },
+    {
+      "idx": 12,
+      "label": "contains discussions about job loss or job risk due to AI and its economic or societal impact",
+      "mean_activation": 0.02148350700736046,
+      "n_active": 16
+    }
+  ]
+}
