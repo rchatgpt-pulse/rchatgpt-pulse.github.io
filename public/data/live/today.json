@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-03",
-  "n_posts": 156,
-  "n_posts_raw": 156,
-  "day_error": 0.7196080684661865,
+  "date": "2026-06-04",
+  "n_posts": 166,
+  "n_posts_raw": 166,
+  "day_error": 0.7210444211959839,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.1293608546257019,
-      "n_active": 52
+      "mean_activation": 0.13072569668293,
+      "n_active": 54
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.03857199475169182,
-      "n_active": 20
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.025594690814614296,
-      "n_active": 17
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.025538796558976173,
-      "n_active": 11
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.02374986745417118,
-      "n_active": 10
-    },
-    {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.02046680822968483,
-      "n_active": 13
+      "mean_activation": 0.042379800230264664,
+      "n_active": 23
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.020411528646945953,
-      "n_active": 10
+      "mean_activation": 0.03302518650889397,
+      "n_active": 21
     },
     {
-      "idx": 36,
-      "label": "the exact word 'ChatGPT' at the start of the text",
-      "mean_activation": 0.019722698256373405,
-      "n_active": 10
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.022166920825839043,
+      "n_active": 15
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.022107752040028572,
+      "n_active": 15
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.021125057712197304,
+      "n_active": 11
     },
     {
       "idx": 114,
       "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.019003693014383316,
-      "n_active": 9
+      "mean_activation": 0.021090850234031677,
+      "n_active": 14
     },
     {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.018671082332730293,
+      "idx": 113,
+      "label": "video creation",
+      "mean_activation": 0.018871266394853592,
       "n_active": 11
+    },
+    {
+      "idx": 107,
+      "label": "marketing, advertising, business growth",
+      "mean_activation": 0.01733715645968914,
+      "n_active": 12
+    },
+    {
+      "idx": 64,
+      "label": "anime or specific anime-related content",
+      "mean_activation": 0.017216334119439125,
+      "n_active": 10
     }
   ]
 }
