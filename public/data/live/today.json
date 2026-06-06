@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-05",
-  "n_posts": 167,
-  "n_posts_raw": 167,
-  "day_error": 0.706204891204834,
+  "date": "2026-06-06",
+  "n_posts": 145,
+  "n_posts_raw": 145,
+  "day_error": 0.7187939286231995,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08724386245012283,
-      "n_active": 43
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.05418248102068901,
-      "n_active": 31
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.03072132170200348,
-      "n_active": 17
+      "mean_activation": 0.13413819670677185,
+      "n_active": 48
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02458791621029377,
-      "n_active": 16
+      "mean_activation": 0.04354669898748398,
+      "n_active": 21
     },
     {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.024396687746047974,
-      "n_active": 14
-    },
-    {
-      "idx": 23,
-      "label": "drawings",
-      "mean_activation": 0.023825200274586678,
-      "n_active": 16
-    },
-    {
-      "idx": 64,
-      "label": "anime or specific anime-related content",
-      "mean_activation": 0.021245606243610382,
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.02558550238609314,
       "n_active": 12
     },
     {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.021203821524977684,
-      "n_active": 16
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.025582008063793182,
+      "n_active": 11
     },
     {
-      "idx": 102,
-      "label": "reference to Reddit explicitly",
-      "mean_activation": 0.02027323469519615,
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.02414328046143055,
+      "n_active": 12
+    },
+    {
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.020120179280638695,
+      "n_active": 9
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.019602756947278976,
+      "n_active": 8
+    },
+    {
+      "idx": 67,
+      "label": "AI-related companies",
+      "mean_activation": 0.018897997215390205,
       "n_active": 10
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.0199824757874012,
-      "n_active": 11
+      "idx": 63,
+      "label": "multiple references to Large Language Models (L...",
+      "mean_activation": 0.017320867627859116,
+      "n_active": 6
+    },
+    {
+      "idx": 117,
+      "label": "prompts and prompting",
+      "mean_activation": 0.017285119742155075,
+      "n_active": 10
     }
   ]
 }
