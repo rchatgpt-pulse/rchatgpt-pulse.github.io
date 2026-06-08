@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-07",
-  "n_posts": 141,
-  "n_posts_raw": 141,
-  "day_error": 0.7302616238594055,
+  "date": "2026-06-08",
+  "n_posts": 135,
+  "n_posts_raw": 135,
+  "day_error": 0.727606475353241,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.13105425238609314,
-      "n_active": 44
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.052113939076662064,
-      "n_active": 23
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.030180413275957108,
-      "n_active": 15
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.029046379029750824,
-      "n_active": 15
+      "mean_activation": 0.14192602038383484,
+      "n_active": 49
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.027890972793102264,
-      "n_active": 14
+      "mean_activation": 0.036947473883628845,
+      "n_active": 18
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.03117184154689312,
+      "n_active": 13
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.03009023703634739,
+      "n_active": 12
+    },
+    {
+      "idx": 94,
+      "label": "discusses photo restoration",
+      "mean_activation": 0.024450888857245445,
+      "n_active": 10
+    },
+    {
+      "idx": 111,
+      "label": "memory features and data saving",
+      "mean_activation": 0.020793208852410316,
+      "n_active": 7
     },
     {
       "idx": 127,
       "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.02537800744175911,
-      "n_active": 13
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.020922046154737473,
-      "n_active": 10
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.018499456346035004,
-      "n_active": 11
-    },
-    {
-      "idx": 68,
-      "label": "offensive or inappropriate content",
-      "mean_activation": 0.017548907548189163,
-      "n_active": 11
-    },
-    {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.016440486535429955,
+      "mean_activation": 0.020074957981705666,
       "n_active": 9
+    },
+    {
+      "idx": 59,
+      "label": "Contains first-person statements about creating...",
+      "mean_activation": 0.02000170387327671,
+      "n_active": 12
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.014587819576263428,
+      "n_active": 8
+    },
+    {
+      "idx": 76,
+      "label": "URLs linking to preview.redd.it images",
+      "mean_activation": 0.014146939851343632,
+      "n_active": 10
     }
   ]
 }
