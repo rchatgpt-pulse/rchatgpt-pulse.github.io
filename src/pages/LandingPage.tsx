@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import BrandLinks from '../components/site/BrandLinks';
+import { PAPER_URL } from '../lib/site';
 
 export default function LandingPage() {
   return (
@@ -22,7 +23,61 @@ export default function LandingPage() {
               What do everyday users have to say about their experiences?
             </p>
             <p className="text-text-muted italic" style={{ fontSize: 13, maxWidth: 460 }}>
-              Based on “Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data” (Dai, Garcia, Pierson, Recht, and Haghtalab; ICML 2026)
+              Based on “
+              <a
+                href={PAPER_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data
+              </a>
+              ” (
+              <a
+                href="https://www.jessicad.ai/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Jessica Dai
+              </a>
+              ,{' '}
+              <a
+                href="https://www.linkedin.com/in/seandgarcia/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Sean Garcia
+              </a>
+              ,{' '}
+              <a
+                href="https://people.eecs.berkeley.edu/~emmapierson/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Emma Pierson
+              </a>
+              ,{' '}
+              <a
+                href="https://people.eecs.berkeley.edu/~brecht/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Benjamin Recht
+              </a>
+              , and{' '}
+              <a
+                href="https://people.eecs.berkeley.edu/~nika/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-text-secondary"
+              >
+                Nika Haghtalab
+              </a>
+              ; ICML 2026)
             </p>
 
             {/* Utility links */}

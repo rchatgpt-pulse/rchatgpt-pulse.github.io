@@ -15,7 +15,6 @@ export const AUTHORS: Author[] = [
   { name: 'Nika Haghtalab' },
 ];
 
-// TODO: replace with the arXiv URL once posted.
-export const PAPER_URL = '/paper.pdf';
+export const PAPER_URL = 'https://arxiv.org/abs/2606.05750';
 export const CONTACT_EMAIL = 'jessicadai@berkeley.edu';
 export const CODE_URL = 'https://github.com/rchatgpt-pulse/rchatgpt-pulse.github.io';

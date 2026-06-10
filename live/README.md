@@ -162,7 +162,7 @@ Decided design (build later, keep the shape now):
 ## Code map
 
 Python (`live/`):
-- `_vendor/` — frozen copy of method code from `jessica-dai/reddit_online @ bcdea8a`. Don't modify directly; if you find a bug, fix in place and note in `_vendor/VENDORED_FROM`.
+- `_vendor/` — frozen copy of Python method code.
 - `live_config.py` — single source of truth for constants (`BETA`, `ALPHA`, `DAILY_POST_CAP`, paths, repo names).
 - `release_io.py` — `gh release` wrappers (pull/push, idempotent) + `ReleaseCache` dataclass that maps a directory to canonical filenames (`.baseline`, `.history`, `.test_state`, `.embed_tar`, `.ckpt`).
 - `score_daily.py` — load posts → embed via OpenAI (uses cache) → SAE inference → emit `day_summary.json` + sparse-activation parquet under `data/day_scores/`.
