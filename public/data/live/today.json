@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-09",
-  "n_posts": 171,
-  "n_posts_raw": 171,
-  "day_error": 0.6964606642723083,
+  "date": "2026-06-10",
+  "n_posts": 165,
+  "n_posts_raw": 165,
+  "day_error": 0.7112921476364136,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10833394527435303,
-      "n_active": 46
+      "mean_activation": 0.12396568804979324,
+      "n_active": 49
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.06150303781032562,
-      "n_active": 32
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.03705909475684166,
-      "n_active": 20
+      "mean_activation": 0.033712614327669144,
+      "n_active": 16
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.029454628005623817,
-      "n_active": 15
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02353433147072792,
-      "n_active": 15
-    },
-    {
-      "idx": 103,
-      "label": "movies, posters, and film",
-      "mean_activation": 0.02309425175189972,
-      "n_active": 12
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.02192327380180359,
-      "n_active": 12
+      "mean_activation": 0.03229502588510513,
+      "n_active": 18
     },
     {
       "idx": 114,
       "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.02182232402265072,
-      "n_active": 10
+      "mean_activation": 0.030083736404776573,
+      "n_active": 17
     },
     {
-      "idx": 12,
-      "label": "or refers explicitly to image generation prompt...",
-      "mean_activation": 0.02169662155210972,
-      "n_active": 13
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.024565931409597397,
+      "n_active": 12
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02434147335588932,
+      "n_active": 15
     },
     {
       "idx": 68,
       "label": "offensive or inappropriate content",
-      "mean_activation": 0.02046167105436325,
-      "n_active": 14
+      "mean_activation": 0.023939870297908783,
+      "n_active": 18
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.02378498949110508,
+      "n_active": 16
+    },
+    {
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.0224634800106287,
+      "n_active": 15
+    },
+    {
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.019799023866653442,
+      "n_active": 11
     }
   ]
 }
