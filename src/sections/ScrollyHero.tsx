@@ -11,6 +11,16 @@ import { getFeatureColor } from '../lib/colors';
 const TITLE = 'Three Years of r/ChatGPT';
 const SUBTITLE = 'Societal Impact Evaluations from Social Media Data';
 
+// arXiv PDF of the paper. Each anchored narrative line links to the matching
+// page via a #page=N.xx fragment (N = page, decimal = vertical scroll offset).
+const PAPER_PDF_URL = 'https://arxiv.org/pdf/2606.05750v1';
+const PAPER_SECTIONS = {
+  weAnalyzed: `${PAPER_PDF_URL}#page=4.54`,
+  domestication: `${PAPER_PDF_URL}#page=6.55`,
+  emotional: `${PAPER_PDF_URL}#page=8.25`,
+  pulse: `${PAPER_PDF_URL}#page=10.64`,
+};
+
 const SENTENCES = [
   'Most evaluations of AI systems measure impact or capability in pre-specified domains. But not all impacts are foreseeable, and realized impact can only be understood in the context of real-world usage. What do everyday users have to say about their experiences?',
   "We think it's worth paying attention.",
@@ -369,23 +379,73 @@ function Ext({ href, children }: { href: string; children: ReactNode }) {
 }
 
 /**
+ * Inline pointer to a section of the arXiv HTML paper. Shown only beside
+ * anchored narrative lines (not in the focus zone). Monospace, sized down to
+ * sit inline, in a blue accent variant that darkens on hover.
+ */
+function PaperLink({ href, label = 'paper' }: { href: string; label?: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="ml-1.5 align-baseline whitespace-nowrap text-[10px] text-[#8587bd] hover:text-accent-600 transition-colors"
+      style={{ fontFamily: 'var(--font-mono)' }}
+    >
+      [{label}↗]
+    </a>
+  );
+}
+
+/**
  * Renders text as a button that smooth-scrolls to a section by id when clicked.
  * Used so the "r/ChatGPT generally…" and "Meanwhile…" anchor lines double as
  * jumps to the top of the Domestication / Emotional Engagement sections.
+ * `inline` swaps the full-width block layout for an inline one so a trailing
+ * element (e.g. a PaperLink) can sit on the same line as the wrapped text.
  */
 function ScrollLink({
   to,
   className = '',
+  inline = false,
   children,
 }: {
   to: string;
   className?: string;
+  inline?: boolean;
   children: React.ReactNode;
 }) {
+  const scrollToSection = () =>
+    document.getElementById(to)?.scrollIntoView({ behavior: 'smooth' });
+
+  // Inline variant renders a <span> rather than a <button>: browsers won't
+  // honor `display: inline` on a <button> (it stays an atomic inline-block),
+  // so a button wrapping multi-line text would span the full line and push any
+  // trailing inline element (e.g. a PaperLink) onto the next line. A span flows
+  // as real inline text; role/tabIndex/onKeyDown keep it keyboard-accessible.
+  if (inline) {
+    return (
+      <span
+        role="button"
+        tabIndex={0}
+        onClick={scrollToSection}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            scrollToSection();
+          }
+        }}
+        className={`cursor-pointer hover:text-accent-700 transition-colors ${className}`}
+      >
+        {children}
+      </span>
+    );
+  }
+
   return (
     <button
       type="button"
-      onClick={() => document.getElementById(to)?.scrollIntoView({ behavior: 'smooth' })}
+      onClick={scrollToSection}
       className={`block w-full text-left cursor-pointer hover:text-accent-700 transition-colors ${className}`}
     >
       {children}
@@ -733,23 +793,32 @@ function StageCanvas({ stage }: { stage: Stage }) {
         }`}
       >
         <div className="border-b border-border pb-2 space-y-1.5 md:pb-3 md:space-y-2">
-          <p className="text-sm md:text-base xl:text-lg text-text-primary font-medium">{WE_ANALYZED}</p>
+          <p className="text-sm md:text-base xl:text-lg text-text-primary font-medium">
+            {WE_ANALYZED}
+            <PaperLink href={PAPER_SECTIONS.weAnalyzed} label="S2" />
+          </p>
           <div
             className={`transition-all duration-700 ease-out ${
               anchorRChatgpt ? 'opacity-100 max-h-40' : 'opacity-0 max-h-0 overflow-hidden'
             }`}
           >
-            <ScrollLink to="domestication" className="text-sm md:text-base text-text-secondary">{R_CHATGPT_GENERALLY}</ScrollLink>
+            <p className="text-sm md:text-base text-text-secondary">
+              <ScrollLink to="domestication" inline>{R_CHATGPT_GENERALLY}</ScrollLink>
+              <PaperLink href={PAPER_SECTIONS.domestication} label="S3.1" />
+            </p>
           </div>
           <div
             className={`transition-all duration-700 ease-out ${
               anchorMeanwhile ? 'opacity-100 max-h-40' : 'opacity-0 max-h-0 overflow-hidden'
             }`}
           >
-            <ScrollLink to="emotional" className="text-sm md:text-base text-text-secondary">
-              {MEANWHILE}
-              {anchorThisWas4o && <> {THIS_WAS_4O}</>}
-            </ScrollLink>
+            <p className="text-sm md:text-base text-text-secondary">
+              <ScrollLink to="emotional" inline>
+                {MEANWHILE}
+                {anchorThisWas4o && <> {THIS_WAS_4O}</>}
+              </ScrollLink>
+              <PaperLink href={PAPER_SECTIONS.emotional} label="S3.2" />
+            </p>
           </div>
           <div
             className={`transition-all duration-700 ease-out ${
@@ -766,6 +835,7 @@ function StageCanvas({ stage }: { stage: Stage }) {
                   {anchorExt2 && <> {EXT_2}</>}
                 </>
               )}
+              <PaperLink href={PAPER_SECTIONS.pulse} label="S4" />
             </p>
           </div>
         </div>

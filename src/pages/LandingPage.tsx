@@ -22,8 +22,14 @@ export default function LandingPage() {
               Social media can tell us a lot about the real-world societal impacts of AI systems. 
               What do everyday users have to say about their experiences?
             </p>
+            <img
+              src="/landing-hero-unit.svg"
+              alt=""
+              className="mb-7"
+              style={{ width: '100%', maxWidth: 460, height: 'auto' }}
+            />
             <p className="text-text-muted italic" style={{ fontSize: 13, maxWidth: 460 }}>
-              Based on “
+              A companion to the ICML 2026 paper “
               <a
                 href={PAPER_URL}
                 target="_blank"
@@ -37,7 +43,7 @@ export default function LandingPage() {
                 href="https://www.jessicad.ai/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-text-secondary"
+                className="no-underline hover:text-text-primary transition-colors"
               >
                 Jessica Dai
               </a>
@@ -46,7 +52,7 @@ export default function LandingPage() {
                 href="https://www.linkedin.com/in/seandgarcia/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-text-secondary"
+                className="no-underline hover:text-text-primary transition-colors"
               >
                 Sean Garcia
               </a>
@@ -55,7 +61,7 @@ export default function LandingPage() {
                 href="https://people.eecs.berkeley.edu/~emmapierson/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-text-secondary"
+                className="no-underline hover:text-text-primary transition-colors"
               >
                 Emma Pierson
               </a>
@@ -64,7 +70,7 @@ export default function LandingPage() {
                 href="https://people.eecs.berkeley.edu/~brecht/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-text-secondary"
+                className="no-underline hover:text-text-primary transition-colors"
               >
                 Benjamin Recht
               </a>
@@ -73,11 +79,10 @@ export default function LandingPage() {
                 href="https://people.eecs.berkeley.edu/~nika/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-text-secondary"
+                className="no-underline hover:text-text-primary transition-colors"
               >
                 Nika Haghtalab
-              </a>
-              ; ICML 2026)
+              </a>)
             </p>
 
             {/* Utility links */}

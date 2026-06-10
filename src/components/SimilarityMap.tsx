@@ -240,7 +240,9 @@ export default function SimilarityMap({
 
         {/* Labels */}
         <g pointerEvents="none">
-          {Array.from(labelIdxs).map((i) => {
+          {Array.from(labelIdxs)
+            .sort((a, b) => (a === focusIdx ? 1 : 0) - (b === focusIdx ? 1 : 0))
+            .map((i) => {
             if (!isVisible(i)) return null;
             const [x, y] = project(i);
             const r = radius(i);
