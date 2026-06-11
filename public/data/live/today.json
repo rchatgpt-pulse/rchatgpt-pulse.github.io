@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-10",
+  "date": "2026-06-11",
   "n_posts": 165,
   "n_posts_raw": 165,
-  "day_error": 0.7112921476364136,
+  "day_error": 0.714703381061554,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.12396568804979324,
+      "mean_activation": 0.12887461483478546,
       "n_active": 49
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.033712614327669144,
-      "n_active": 16
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.03229502588510513,
-      "n_active": 18
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.030083736404776573,
-      "n_active": 17
+      "mean_activation": 0.05789486691355705,
+      "n_active": 30
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.024565931409597397,
-      "n_active": 12
+      "mean_activation": 0.03280836343765259,
+      "n_active": 18
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02434147335588932,
-      "n_active": 15
-    },
-    {
-      "idx": 68,
-      "label": "offensive or inappropriate content",
-      "mean_activation": 0.023939870297908783,
-      "n_active": 18
-    },
-    {
-      "idx": 123,
-      "label": "D&D and role-playing games",
-      "mean_activation": 0.02378498949110508,
+      "mean_activation": 0.027779756113886833,
       "n_active": 16
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.025864465162158012,
+      "n_active": 17
+    },
+    {
+      "idx": 55,
+      "label": "perception of recent drops in quality",
+      "mean_activation": 0.022655747830867767,
+      "n_active": 17
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.02245728112757206,
+      "n_active": 12
     },
     {
       "idx": 88,
       "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.0224634800106287,
-      "n_active": 15
+      "mean_activation": 0.021865731105208397,
+      "n_active": 14
     },
     {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.019799023866653442,
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.016293644905090332,
       "n_active": 11
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.01600809395313263,
+      "n_active": 9
     }
   ]
 }
