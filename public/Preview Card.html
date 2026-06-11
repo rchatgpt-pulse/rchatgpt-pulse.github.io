@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>r/ChatGPT · Preview card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" />
+<style>
+  :root {
+    /* Match the site: heading + body use the homepage's system-serif stack. */
+    --font-heading: 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+    --font-body:    'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+    --font-mono:    ui-monospace, 'Cascadia Code', 'Fira Code', SFMono-Regular, Menlo, monospace;
+    --accent:       #e9cb42;
+    --bg:           color-mix(in oklab, var(--accent) 1.5%, white);
+    --surface:      #ffffff;
+    --border:       color-mix(in oklab, var(--accent) 14%, white);
+    --text-primary:   #111827;
+    --text-secondary: #6b7280;
+    --text-muted:     #9ca3af;
+    --emo: #af528a;
+    --att: #bb4e5c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: var(--bg);
+    display: block;
+    font-family: var(--font-body);
+  }
+
+  /* ── 1200 × 630 Open Graph / Twitter card ───────────────────── */
+  .card {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    background: var(--bg);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.02fr 0.98fr;
+    align-items: center;
+    gap: 52px;
+    padding: 70px 80px;
+  }
+  /* top accent hairline */
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 6px;
+    background: var(--accent);
+  }
+
+  /* ── Left column ─────────────────────────────────────────────── */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  .brand-glyph {
+    width: 38px; height: 38px;
+    border-radius: 9px;
+    flex-shrink: 0;
+    display: block;
+  }
+  .brand-label {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+
+  h1.title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 1.06;
+    letter-spacing: -0.018em;
+    color: var(--text-primary);
+    margin: 0 0 24px;
+  }
+  .subtitle {
+    font-size: 23px;
+    line-height: 1.46;
+    color: var(--text-secondary);
+    max-width: 500px;
+    margin: 0 0 30px;
+  }
+  .cite {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--text-muted);
+    max-width: 470px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── Right column · chart card ───────────────────────────────── */
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 24px 48px -28px color-mix(in oklab, var(--accent) 40%, #6b5e2e),
+                0 2px 0 0 rgba(255,255,255,0.6) inset;
+    padding: 26px 26px 22px;
+  }
+  .chart-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  .legend {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 14px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+  }
+  .legend-swatch {
+    width: 22px; height: 3px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+  .legend-text {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    line-height: 1.35;
+    color: var(--text-secondary);
+  }
+  .chart-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <div class="card" data-screen-label="OG card">
+    <!-- LEFT -->
+    <div class="lhs">
+      <h1 class="title">Keeping a pulse<br />on r/ChatGPT</h1>
+
+      <p class="subtitle">Social media can tell us a lot about the real-world societal impacts of AI systems. What do everyday users have to say?</p>
+
+      <div class="cite">Three Years of r/ChatGPT: Societal Impact Evaluations from Social Media Data — Dai, Garcia, Pierson, Recht &amp; Haghtalab · ICML 2026</div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="chart-card">
+      <div class="chart-eyebrow">Share of posts over time</div>
+      <div class="legend">
+        <div class="legend-item">
+          <span class="legend-swatch" style="background: var(--emo);"></span>
+          <span class="legend-text">using ChatGPT for emotional support or therapy</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-swatch" style="background: var(--att);"></span>
+          <span class="legend-text">feelings of attachment or companionship with AI</span>
+        </div>
+      </div>
+      <img class="chart-img" src="landing-hero-chart.svg" alt="Two-line time series of r/ChatGPT post share mentioning emotional support and attachment, Feb 2023 to early 2025" />
+    </div>
+  </div>
+
+  <template id="__bundler_thumbnail">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+      <rect width="32" height="32" rx="7" fill="#4a4a8a"></rect>
+      <path d="M20 8 C20.5 12.5 21.8 13.8 26 14.3 C21.8 14.8 20.5 16 20 20.5 C19.5 16 18.2 14.8 14 14.3 C18.2 13.8 19.5 12.5 20 8 Z" fill="#ffffff"></path>
+    </svg>
+  </template>
+</body>
+</html>
