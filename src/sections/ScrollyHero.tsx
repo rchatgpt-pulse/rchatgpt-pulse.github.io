@@ -85,7 +85,7 @@ const EXT_FULL = (
 
 const WE_PROPOSE = (
   <>
-    We propose a simple method that flags this growth as soon as October 2024. (We call it{' '}
+    We propose a simple method that could have flagged this growth as soon as October 2024. (We call it{' '}
     <span style={{ fontVariantCaps: 'small-caps' }}>PuLSE</span>:{' '}
     <em>Public and Longitudinal Signals for Evaluation</em>.)
   </>
@@ -116,7 +116,7 @@ const PUBLIC_KNOWN_COMMENTARY: ReactNode[] = [
     <Ext href="https://openai.com/index/sycophancy-in-gpt-4o/">rolled back immediately</Ext>...
   </>,
   <>
-    Or when GPT-5 was launched, and drew such a strong backlash that{' '}
+    Or when GPT-5 was launched, and drew such a strong backlash that {' '}
     <Ext href="https://x.com/sama/status/1953893841381273969">GPT-4o was reinstated</Ext>...
   </>,
 ];
