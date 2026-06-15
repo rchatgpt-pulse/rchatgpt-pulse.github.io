@@ -332,7 +332,16 @@ export default function LiveSimulatorPage() {
       <div className="space-y-6" style={{ marginTop: 24 }}>
       <header>
         <p className="text-sm text-text-secondary">
-          Monitor in "real time," both counterfactually and with new data. See Section 4 of the paper for method details.
+          Monitor in "real time," both counterfactually and with new data. See{" "}
+          <a
+            href="https://arxiv.org/pdf/2606.05750v1#page=10.64"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Section 4
+          </a>{" "}
+          for method details.
         </p>
       </header>
 
@@ -348,7 +357,7 @@ export default function LiveSimulatorPage() {
           </label>
           <input
             type="text"
-            placeholder="Search by label or idx…"
+            placeholder="Search by label…"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full px-3 py-1.5 border border-border rounded-lg text-sm bg-bg focus:outline-none focus:ring-2 focus:ring-accent-100"

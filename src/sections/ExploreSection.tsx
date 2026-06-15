@@ -6,7 +6,7 @@ import { categoryColor, featureColor } from '../lib/feature-colors';
 import FeatureList from '../components/FeatureList';
 import TimeSeriesChart from '../components/TimeSeriesChart';
 import SiteInlineFooter from '../components/site/SiteInlineFooter';
-import { expandCondensed, normalizeMatrix } from '../lib/mds';
+import { expandCondensed, rankNormalizeMatrix } from '../lib/mds';
 import type { Feature, TimeseriesWeek } from '../types';
 
 type View = 'map' | 'list';
@@ -183,10 +183,8 @@ export default function ExploreSection() {
     return {
       n,
       featureIds: similarities.feature_ids,
-      traj,
-      cooc,
-      simTrajNorm: normalizeMatrix(traj, n),
-      simCoocNorm: normalizeMatrix(cooc, n),
+      simTrajNorm: rankNormalizeMatrix(traj, n),
+      simCoocNorm: rankNormalizeMatrix(cooc, n),
     };
   }, [similarities]);
 
@@ -316,8 +314,6 @@ export default function ExploreSection() {
             <SimilarityMap
               features={features}
               featureIdsInSim={mapInputs.featureIds}
-              trajectory={mapInputs.traj}
-              cooccurrence={mapInputs.cooc}
               simTrajNorm={mapInputs.simTrajNorm}
               simCoocNorm={mapInputs.simCoocNorm}
               pinnedIds={pinnedIds}
@@ -452,10 +448,10 @@ export default function ExploreSection() {
                 </button>
                 <div className="pointer-events-none absolute top-full left-0 mt-2 hidden w-72 px-3 py-2 rounded-md bg-text-primary text-surface text-[11px] leading-snug opacity-0 group-hover:opacity-100 transition-opacity z-20 md:block">
                   <div className="mb-1">
-                    <span className="font-semibold">Labels:</span> share of posts labeled with this topic.
+                    <span className="font-semibold">Labels:</span> share of posts labeled with this topic. Only available through November 2025.
                   </div>
                   <div>
-                    <span className="font-semibold">Activations:</span> share of posts where this SAE topic has nonzero activation (n_active / n_posts).
+                    <span className="font-semibold">Activations:</span> share of daily posts where this SAE topic has nonzero activation (n_active / n_posts). 
                   </div>
                 </div>
               </div>

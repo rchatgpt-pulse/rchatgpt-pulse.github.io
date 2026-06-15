@@ -4,6 +4,10 @@ import {
   classicalMDS,
   centerAndScale,
   procrustesAlign,
+  forceLayout,
+  principalAngle,
+  rotate,
+  catmullRom,
   type XY,
 } from '../lib/mds';
 import { categoryColor, featureColor } from '../lib/feature-colors';
@@ -13,13 +17,23 @@ export { categoryColor };
 
 const TOP_K = 5;
 
+// Blends at which a full force layout is precomputed. In-between slider
+// positions interpolate (Catmull-Rom) between these fixed anchors, so dot paths
+// are smooth and continuous rather than re-solved (and jittery) every frame.
+const ANCHOR_BLENDS = [0, 0.2, 0.4, 0.6, 0.8, 1];
+
+// Fraction of each anchor's "lay the long axis horizontal" rotation to apply.
+// Full (1) keeps every blend landscape but spins the map ~72° toward the
+// co-occurrence end (which embeds rotated ~90° from trajectory); 0 leaves
+// co-occurrence portrait/squished. 0.5 splits the difference: co-occurrence
+// settles roughly square while halving the spin.
+const ORIENT_DAMPING = 0.3;
+
 interface Props {
   features: Feature[];                   // all features (typically 128)
   featureIdsInSim: number[];             // matrix order from similarities.feature_ids
-  trajectory: Float64Array;              // n×n full matrix
-  cooccurrence: Float64Array;            // n×n full matrix
-  simTrajNorm: Float32Array;             // n×n normalized [0,1]
-  simCoocNorm: Float32Array;             // n×n normalized [0,1]
+  simTrajNorm: Float32Array;             // n×n rank-normalized [0,1]
+  simCoocNorm: Float32Array;             // n×n rank-normalized [0,1]
   pinnedIds: Set<number>;
   togglePin: (id: number) => void;
   blend: number;
@@ -60,8 +74,6 @@ function useIsMobileViewport() {
 export default function SimilarityMap({
   features,
   featureIdsInSim,
-  trajectory,
-  cooccurrence,
   simTrajNorm,
   simCoocNorm,
   pinnedIds,
@@ -74,7 +86,15 @@ export default function SimilarityMap({
   const n = featureIdsInSim.length;
   const isMobile = useIsMobileViewport();
 
-  const { mapFeatures, coordsA, coordsB } = useMemo(() => {
+  // Precompute a force layout at each anchor blend (once per dataset, not per
+  // slider frame). Each anchor refines the blended similarity so the visually
+  // closest dots match the "most similar" list on hover — which a raw MDS
+  // projection can't guarantee (it's a lossy global 2D shadow). Anchors are
+  // warm-started from the previous one so consecutive layouts stay close,
+  // aligned into a common frame so interpolation paths are short, and tagged
+  // with the rotation that lays their long axis horizontal (co-occurrence
+  // otherwise embeds tall-and-narrow and squishes in the landscape map).
+  const { mapFeatures, anchors, anchorAngles } = useMemo(() => {
     const byId = new Map<number, Feature>();
     for (const f of features) byId.set(f.id, f);
     const mf: MapFeature[] = featureIdsInSim.map((id) => {
@@ -85,19 +105,70 @@ export default function SimilarityMap({
         volume: ((f?.early_pct ?? 0) + (f?.late_pct ?? 0)) / 2,
       };
     });
-    const a0 = classicalMDS(trajectory, n);
-    const b0 = classicalMDS(cooccurrence, n);
-    const a = centerAndScale(a0);
-    const b = procrustesAlign(a, centerAndScale(b0));
-    return { mapFeatures: mf, coordsA: a, coordsB: b };
-  }, [features, featureIdsInSim, trajectory, cooccurrence, n]);
 
+    // MDS of the rank-normalized matrices seeds the first anchor (rank-norm
+    // keeps heavy-tailed co-occurrence from collapsing to a blob).
+    const seedT = centerAndScale(classicalMDS(simTrajNorm, n));
+    const seedC = procrustesAlign(seedT, centerAndScale(classicalMDS(simCoocNorm, n)));
+
+    const raw: XY[][] = [];
+    for (let a = 0; a < ANCHOR_BLENDS.length; a++) {
+      const bl = ANCHOR_BLENDS[a];
+      const sim = new Float32Array(n * n);
+      for (let i = 0; i < n * n; i++) {
+        sim[i] = (1 - bl) * simTrajNorm[i] + bl * simCoocNorm[i];
+      }
+      const seed =
+        a === 0
+          ? seedT.map<XY>((p, i) => [
+              (1 - bl) * p[0] + bl * seedC[i][0],
+              (1 - bl) * p[1] + bl * seedC[i][1],
+            ])
+          : raw[a - 1];
+      raw.push(centerAndScale(forceLayout(sim, n, seed)));
+    }
+
+    // Align every anchor into the first anchor's frame (rotation/flip only) so a
+    // feature's position changes little between adjacent anchors.
+    const aligned: XY[][] = [raw[0], ...raw.slice(1).map((L) => procrustesAlign(raw[0], L))];
+
+    // Orientation angle per anchor, unwrapped (principal axis is a line, so it's
+    // only defined mod π) so the interpolated rotation sweeps continuously.
+    const angles = aligned.map(principalAngle);
+    for (let k = 1; k < angles.length; k++) {
+      while (angles[k] - angles[k - 1] > Math.PI / 2) angles[k] -= Math.PI;
+      while (angles[k] - angles[k - 1] < -Math.PI / 2) angles[k] += Math.PI;
+    }
+    // Apply only a fraction of each rotation (see ORIENT_DAMPING) so the map
+    // turns less toward the co-occurrence end.
+    for (let k = 0; k < angles.length; k++) angles[k] *= ORIENT_DAMPING;
+
+    return { mapFeatures: mf, anchors: aligned, anchorAngles: angles };
+  }, [features, featureIdsInSim, simTrajNorm, simCoocNorm, n]);
+
+  // Interpolate dot positions and the map rotation between the surrounding
+  // anchors with a Catmull-Rom spline. This is cheap (O(n)) and runs each frame,
+  // giving smooth, curved, continuous dot paths as the slider moves.
   const coords: XY[] = useMemo(() => {
-    return coordsA.map<XY>((p, i) => [
-      (1 - blend) * p[0] + blend * coordsB[i][0],
-      (1 - blend) * p[1] + blend * coordsB[i][1],
+    const m = ANCHOR_BLENDS.length;
+    let k = 0;
+    while (k < m - 2 && blend > ANCHOR_BLENDS[k + 1]) k++;
+    const t = (blend - ANCHOR_BLENDS[k]) / (ANCHOR_BLENDS[k + 1] - ANCHOR_BLENDS[k]);
+    const i0 = Math.max(0, k - 1);
+    const i1 = k;
+    const i2 = k + 1;
+    const i3 = Math.min(m - 1, k + 2);
+    const [a0, a1, a2, a3] = [anchors[i0], anchors[i1], anchors[i2], anchors[i3]];
+    const c: XY[] = a1.map((_, i) => [
+      catmullRom(a0[i][0], a1[i][0], a2[i][0], a3[i][0], t),
+      catmullRom(a0[i][1], a1[i][1], a2[i][1], a3[i][1], t),
     ]);
-  }, [coordsA, coordsB, blend]);
+    const theta = catmullRom(
+      anchorAngles[i0], anchorAngles[i1], anchorAngles[i2], anchorAngles[i3], t,
+    );
+    // Rotate by -theta to lay the interpolated layout's long axis horizontal.
+    return rotate(c, -theta);
+  }, [anchors, anchorAngles, blend]);
 
   // External hover (set by either view) → local matrix index for rendering.
   const hoverIdx = useMemo(() => {
