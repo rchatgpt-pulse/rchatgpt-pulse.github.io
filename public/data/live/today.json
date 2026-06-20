@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-19",
-  "n_posts": 145,
-  "n_posts_raw": 145,
-  "day_error": 0.7101236581802368,
+  "date": "2026-06-20",
+  "n_posts": 129,
+  "n_posts_raw": 129,
+  "day_error": 0.7085431814193726,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.12396221607923508,
-      "n_active": 47
+      "mean_activation": 0.13208484649658203,
+      "n_active": 41
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.05657988414168358,
-      "n_active": 24
+      "mean_activation": 0.0522368885576725,
+      "n_active": 19
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.03487182781100273,
-      "n_active": 15
+      "mean_activation": 0.05206294357776642,
+      "n_active": 21
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.024471763521432877,
-      "n_active": 10
-    },
-    {
-      "idx": 94,
-      "label": "discusses photo restoration",
-      "mean_activation": 0.023721713572740555,
-      "n_active": 11
-    },
-    {
-      "idx": 123,
-      "label": "D&D and role-playing games",
-      "mean_activation": 0.021969962865114212,
-      "n_active": 10
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02081245742738247,
-      "n_active": 12
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.020407099276781082,
+      "idx": 23,
+      "label": "drawings",
+      "mean_activation": 0.024808885529637337,
       "n_active": 12
     },
     {
       "idx": 76,
       "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.018996749073266983,
-      "n_active": 11
+      "mean_activation": 0.024682559072971344,
+      "n_active": 12
+    },
+    {
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.02277439273893833,
+      "n_active": 9
+    },
+    {
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.022627858445048332,
+      "n_active": 10
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.016758188605308533,
+      "mean_activation": 0.019790075719356537,
+      "n_active": 8
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.018965119495987892,
+      "n_active": 9
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.018157193437218666,
       "n_active": 9
     }
   ]
