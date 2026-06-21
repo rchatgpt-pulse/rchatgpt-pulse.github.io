@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-20",
-  "n_posts": 129,
-  "n_posts_raw": 129,
-  "day_error": 0.7085431814193726,
+  "date": "2026-06-21",
+  "n_posts": 128,
+  "n_posts_raw": 128,
+  "day_error": 0.7137235403060913,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.13208484649658203,
-      "n_active": 41
+      "mean_activation": 0.13623759150505066,
+      "n_active": 42
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.0522368885576725,
-      "n_active": 19
+      "mean_activation": 0.06197933852672577,
+      "n_active": 22
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.05206294357776642,
-      "n_active": 21
+      "mean_activation": 0.04289058595895767,
+      "n_active": 16
     },
     {
-      "idx": 23,
-      "label": "drawings",
-      "mean_activation": 0.024808885529637337,
-      "n_active": 12
-    },
-    {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.024682559072971344,
-      "n_active": 12
-    },
-    {
-      "idx": 104,
-      "label": "login problems",
-      "mean_activation": 0.02277439273893833,
-      "n_active": 9
-    },
-    {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.022627858445048332,
+      "idx": 117,
+      "label": "prompts and prompting",
+      "mean_activation": 0.02637690119445324,
       "n_active": 10
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.019790075719356537,
-      "n_active": 8
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.018965119495987892,
-      "n_active": 9
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.018157193437218666,
-      "n_active": 9
+      "mean_activation": 0.02545900084078312,
+      "n_active": 12
+    },
+    {
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.024342816323041916,
+      "n_active": 11
+    },
+    {
+      "idx": 76,
+      "label": "URLs linking to preview.redd.it images",
+      "mean_activation": 0.022569704800844193,
+      "n_active": 12
+    },
+    {
+      "idx": 28,
+      "label": "requests for help",
+      "mean_activation": 0.021150419488549232,
+      "n_active": 11
+    },
+    {
+      "idx": 23,
+      "label": "drawings",
+      "mean_activation": 0.01957598887383938,
+      "n_active": 10
+    },
+    {
+      "idx": 31,
+      "label": "scientific theories or hypotheses involving adv...",
+      "mean_activation": 0.016762832179665565,
+      "n_active": 6
     }
   ]
 }
