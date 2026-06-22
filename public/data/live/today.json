@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-21",
-  "n_posts": 128,
-  "n_posts_raw": 128,
-  "day_error": 0.7137235403060913,
+  "date": "2026-06-22",
+  "n_posts": 152,
+  "n_posts_raw": 152,
+  "day_error": 0.7276362776756287,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.13623759150505066,
-      "n_active": 42
+      "mean_activation": 0.1477804332971573,
+      "n_active": 55
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.06197933852672577,
-      "n_active": 22
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.04289058595895767,
-      "n_active": 16
-    },
-    {
-      "idx": 117,
-      "label": "prompts and prompting",
-      "mean_activation": 0.02637690119445324,
-      "n_active": 10
+      "mean_activation": 0.08645802736282349,
+      "n_active": 36
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02545900084078312,
-      "n_active": 12
+      "mean_activation": 0.035606563091278076,
+      "n_active": 19
     },
     {
-      "idx": 12,
-      "label": "or refers explicitly to image generation prompt...",
-      "mean_activation": 0.024342816323041916,
-      "n_active": 11
-    },
-    {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.022569704800844193,
-      "n_active": 12
-    },
-    {
-      "idx": 28,
-      "label": "requests for help",
-      "mean_activation": 0.021150419488549232,
-      "n_active": 11
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.029366983100771904,
+      "n_active": 15
     },
     {
       "idx": 23,
       "label": "drawings",
-      "mean_activation": 0.01957598887383938,
+      "mean_activation": 0.022189723327755928,
       "n_active": 10
     },
     {
-      "idx": 31,
-      "label": "scientific theories or hypotheses involving adv...",
-      "mean_activation": 0.016762832179665565,
-      "n_active": 6
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.021282777190208435,
+      "n_active": 12
+    },
+    {
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.021019818261265755,
+      "n_active": 11
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.02070729434490204,
+      "n_active": 13
+    },
+    {
+      "idx": 103,
+      "label": "movies, posters, and film",
+      "mean_activation": 0.02047637291252613,
+      "n_active": 10
+    },
+    {
+      "idx": 59,
+      "label": "Contains first-person statements about creating...",
+      "mean_activation": 0.020315101370215416,
+      "n_active": 13
     }
   ]
 }
