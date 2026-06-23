@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-22",
-  "n_posts": 152,
-  "n_posts_raw": 152,
-  "day_error": 0.7276362776756287,
+  "date": "2026-06-23",
+  "n_posts": 138,
+  "n_posts_raw": 138,
+  "day_error": 0.7117049098014832,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.1477804332971573,
-      "n_active": 55
+      "mean_activation": 0.1220165491104126,
+      "n_active": 42
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.08645802736282349,
-      "n_active": 36
+      "mean_activation": 0.05366649478673935,
+      "n_active": 22
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.035606563091278076,
-      "n_active": 19
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.029366983100771904,
-      "n_active": 15
-    },
-    {
-      "idx": 23,
-      "label": "drawings",
-      "mean_activation": 0.022189723327755928,
-      "n_active": 10
+      "mean_activation": 0.040886323899030685,
+      "n_active": 18
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.021282777190208435,
-      "n_active": 12
-    },
-    {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.021019818261265755,
-      "n_active": 11
+      "mean_activation": 0.03268495574593544,
+      "n_active": 15
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02070729434490204,
-      "n_active": 13
+      "mean_activation": 0.024314649403095245,
+      "n_active": 12
     },
     {
-      "idx": 103,
-      "label": "movies, posters, and film",
-      "mean_activation": 0.02047637291252613,
+      "idx": 94,
+      "label": "discusses photo restoration",
+      "mean_activation": 0.021038686856627464,
+      "n_active": 8
+    },
+    {
+      "idx": 76,
+      "label": "URLs linking to preview.redd.it images",
+      "mean_activation": 0.01919187232851982,
+      "n_active": 12
+    },
+    {
+      "idx": 72,
+      "label": "requests to turn specific features off",
+      "mean_activation": 0.017978759482502937,
       "n_active": 10
     },
     {
-      "idx": 59,
-      "label": "Contains first-person statements about creating...",
-      "mean_activation": 0.020315101370215416,
-      "n_active": 13
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.017934206873178482,
+      "n_active": 9
+    },
+    {
+      "idx": 18,
+      "label": "Feature 18",
+      "mean_activation": 0.016957491636276245,
+      "n_active": 9
     }
   ]
 }
