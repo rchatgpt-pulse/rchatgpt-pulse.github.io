@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-27",
-  "n_posts": 152,
-  "n_posts_raw": 152,
-  "day_error": 0.7364991307258606,
+  "date": "2026-06-28",
+  "n_posts": 135,
+  "n_posts_raw": 135,
+  "day_error": 0.7198648452758789,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.15026728808879852,
-      "n_active": 59
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.032119203358888626,
-      "n_active": 15
+      "mean_activation": 0.12313045561313629,
+      "n_active": 44
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.028295030817389488,
+      "mean_activation": 0.04035990312695503,
       "n_active": 15
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.023570271208882332,
-      "n_active": 13
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.02161216363310814,
-      "n_active": 11
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.03809318691492081,
+      "n_active": 17
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.021102840080857277,
-      "n_active": 14
+      "mean_activation": 0.02694464661180973,
+      "n_active": 13
     },
     {
-      "idx": 90,
-      "label": "investing, finance, or wealth topics",
-      "mean_activation": 0.019368121400475502,
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.024434532970190048,
       "n_active": 11
     },
     {
-      "idx": 117,
-      "label": "prompts and prompting",
-      "mean_activation": 0.018625948578119278,
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.024418801069259644,
       "n_active": 10
     },
     {
-      "idx": 125,
-      "label": "GPT model version numbers starting with 5 (e.g.",
-      "mean_activation": 0.017871590331196785,
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.0220202449709177,
+      "n_active": 12
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.0214461050927639,
       "n_active": 11
     },
     {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.0172277819365263,
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.02142994850873947,
       "n_active": 11
+    },
+    {
+      "idx": 22,
+      "label": "poetic language",
+      "mean_activation": 0.020251844078302383,
+      "n_active": 7
     }
   ]
 }
