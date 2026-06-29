@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-28",
-  "n_posts": 135,
-  "n_posts_raw": 135,
-  "day_error": 0.7198648452758789,
+  "date": "2026-06-29",
+  "n_posts": 127,
+  "n_posts_raw": 127,
+  "day_error": 0.7165243625640869,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.12313045561313629,
-      "n_active": 44
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.04035990312695503,
-      "n_active": 15
+      "mean_activation": 0.14535300433635712,
+      "n_active": 45
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.03809318691492081,
-      "n_active": 17
+      "mean_activation": 0.043046943843364716,
+      "n_active": 16
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02694464661180973,
-      "n_active": 13
+      "mean_activation": 0.04256829991936684,
+      "n_active": 18
     },
     {
-      "idx": 104,
-      "label": "login problems",
-      "mean_activation": 0.024434532970190048,
-      "n_active": 11
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.024418801069259644,
-      "n_active": 10
-    },
-    {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.0220202449709177,
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.021261196583509445,
       "n_active": 12
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.0214461050927639,
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.020792808383703232,
+      "n_active": 9
+    },
+    {
+      "idx": 110,
+      "label": "Feature 110",
+      "mean_activation": 0.020105237141251564,
       "n_active": 11
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.02142994850873947,
-      "n_active": 11
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.01904667355120182,
+      "n_active": 10
     },
     {
-      "idx": 22,
-      "label": "poetic language",
-      "mean_activation": 0.020251844078302383,
-      "n_active": 7
+      "idx": 55,
+      "label": "perception of recent drops in quality",
+      "mean_activation": 0.01862623728811741,
+      "n_active": 10
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.018619479611516,
+      "n_active": 6
+    },
+    {
+      "idx": 118,
+      "label": "prompts or requests for brutal",
+      "mean_activation": 0.0169767327606678,
+      "n_active": 11
     }
   ]
 }
