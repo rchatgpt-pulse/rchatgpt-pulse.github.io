@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-29",
-  "n_posts": 127,
-  "n_posts_raw": 127,
-  "day_error": 0.7165243625640869,
+  "date": "2026-06-30",
+  "n_posts": 107,
+  "n_posts_raw": 107,
+  "day_error": 0.7195066213607788,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.14535300433635712,
-      "n_active": 45
+      "mean_activation": 0.1585569530725479,
+      "n_active": 42
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.040969181805849075,
+      "n_active": 16
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.043046943843364716,
-      "n_active": 16
+      "mean_activation": 0.038545820862054825,
+      "n_active": 12
+    },
+    {
+      "idx": 103,
+      "label": "movies, posters, and film",
+      "mean_activation": 0.02604438178241253,
+      "n_active": 9
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.04256829991936684,
-      "n_active": 18
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.021261196583509445,
-      "n_active": 12
-    },
-    {
-      "idx": 12,
-      "label": "or refers explicitly to image generation prompt...",
-      "mean_activation": 0.020792808383703232,
+      "mean_activation": 0.025180701166391373,
       "n_active": 9
     },
     {
       "idx": 110,
       "label": "Feature 110",
-      "mean_activation": 0.020105237141251564,
+      "mean_activation": 0.024837452918291092,
       "n_active": 11
     },
     {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.01904667355120182,
-      "n_active": 10
+      "idx": 117,
+      "label": "prompts and prompting",
+      "mean_activation": 0.02342604286968708,
+      "n_active": 9
     },
     {
-      "idx": 55,
-      "label": "perception of recent drops in quality",
-      "mean_activation": 0.01862623728811741,
-      "n_active": 10
+      "idx": 74,
+      "label": "'models'",
+      "mean_activation": 0.021913697943091393,
+      "n_active": 9
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.018619479611516,
-      "n_active": 6
+      "idx": 18,
+      "label": "Feature 18",
+      "mean_activation": 0.02070091851055622,
+      "n_active": 9
     },
     {
-      "idx": 118,
-      "label": "prompts or requests for brutal",
-      "mean_activation": 0.0169767327606678,
-      "n_active": 11
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.020682668313384056,
+      "n_active": 9
     }
   ]
 }
