@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-02",
-  "n_posts": 120,
-  "n_posts_raw": 120,
-  "day_error": 0.7205959558486938,
+  "date": "2026-07-03",
+  "n_posts": 109,
+  "n_posts_raw": 109,
+  "day_error": 0.7140839099884033,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.11919217556715012,
-      "n_active": 35
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.041476551443338394,
-      "n_active": 15
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.03952153027057648,
-      "n_active": 16
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.039295993745326996,
-      "n_active": 13
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.027858534827828407,
-      "n_active": 11
-    },
-    {
-      "idx": 117,
-      "label": "prompts and prompting",
-      "mean_activation": 0.023794539272785187,
-      "n_active": 10
+      "mean_activation": 0.11143504083156586,
+      "n_active": 32
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02225732058286667,
-      "n_active": 10
+      "mean_activation": 0.035082604736089706,
+      "n_active": 16
     },
     {
-      "idx": 110,
-      "label": "Feature 110",
-      "mean_activation": 0.021984804421663284,
-      "n_active": 12
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.032724425196647644,
+      "n_active": 16
     },
     {
-      "idx": 94,
-      "label": "discusses photo restoration",
-      "mean_activation": 0.020060013979673386,
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.03215824440121651,
+      "n_active": 11
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.028141651302576065,
       "n_active": 8
     },
     {
-      "idx": 68,
-      "label": "offensive or inappropriate content",
-      "mean_activation": 0.018908381462097168,
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.023948846384882927,
       "n_active": 9
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.022968990728259087,
+      "n_active": 9
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.021471645683050156,
+      "n_active": 8
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.020477619022130966,
+      "n_active": 8
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.019780458882451057,
+      "n_active": 7
     }
   ]
 }
