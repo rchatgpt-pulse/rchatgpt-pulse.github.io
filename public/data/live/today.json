@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-03",
-  "n_posts": 109,
-  "n_posts_raw": 109,
-  "day_error": 0.7140839099884033,
+  "date": "2026-07-04",
+  "n_posts": 113,
+  "n_posts_raw": 113,
+  "day_error": 0.7199596166610718,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.11143504083156586,
-      "n_active": 32
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.035082604736089706,
-      "n_active": 16
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.032724425196647644,
-      "n_active": 16
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.03215824440121651,
-      "n_active": 11
+      "mean_activation": 0.12474706023931503,
+      "n_active": 36
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.028141651302576065,
-      "n_active": 8
+      "mean_activation": 0.03357483446598053,
+      "n_active": 11
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.023948846384882927,
-      "n_active": 9
+      "mean_activation": 0.03279206156730652,
+      "n_active": 10
     },
     {
       "idx": 123,
       "label": "D&D and role-playing games",
-      "mean_activation": 0.022968990728259087,
-      "n_active": 9
+      "mean_activation": 0.0304589681327343,
+      "n_active": 12
     },
     {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.021471645683050156,
-      "n_active": 8
-    },
-    {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.020477619022130966,
-      "n_active": 8
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.029523450881242752,
+      "n_active": 10
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.019780458882451057,
+      "mean_activation": 0.028763186186552048,
+      "n_active": 11
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02525314874947071,
+      "n_active": 11
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.02218109741806984,
+      "n_active": 10
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.021216992288827896,
+      "n_active": 10
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.020909657701849937,
       "n_active": 7
     }
   ]
