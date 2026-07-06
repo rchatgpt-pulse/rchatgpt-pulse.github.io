@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-05",
-  "n_posts": 105,
-  "n_posts_raw": 105,
-  "day_error": 0.7020584940910339,
+  "date": "2026-07-06",
+  "n_posts": 98,
+  "n_posts_raw": 98,
+  "day_error": 0.7051182389259338,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.12939950823783875,
-      "n_active": 35
+      "mean_activation": 0.09769848734140396,
+      "n_active": 23
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.05681956559419632,
-      "n_active": 15
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.04312792420387268,
+      "mean_activation": 0.04006122425198555,
       "n_active": 12
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.03203423693776131,
-      "n_active": 14
+      "mean_activation": 0.030328789725899696,
+      "n_active": 11
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.02469417080283165,
+      "n_active": 10
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.024101121351122856,
+      "n_active": 8
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.024065835401415825,
+      "n_active": 10
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.023951329290866852,
+      "n_active": 8
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.020016824826598167,
+      "n_active": 8
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.023066967725753784,
-      "n_active": 7
-    },
-    {
-      "idx": 12,
-      "label": "or refers explicitly to image generation prompt...",
-      "mean_activation": 0.022657431662082672,
+      "mean_activation": 0.01895570568740368,
       "n_active": 6
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.022410079836845398,
-      "n_active": 7
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.021476643159985542,
-      "n_active": 6
-    },
-    {
-      "idx": 105,
-      "label": "Feature 105",
-      "mean_activation": 0.018889619037508965,
-      "n_active": 7
-    },
-    {
-      "idx": 110,
-      "label": "Feature 110",
-      "mean_activation": 0.017652887850999832,
+      "mean_activation": 0.018895773217082024,
       "n_active": 6
     }
   ]
