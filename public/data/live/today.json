@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-06",
-  "n_posts": 98,
-  "n_posts_raw": 98,
-  "day_error": 0.7051182389259338,
+  "date": "2026-07-07",
+  "n_posts": 97,
+  "n_posts_raw": 97,
+  "day_error": 0.6757102608680725,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09769848734140396,
-      "n_active": 23
+      "mean_activation": 0.07195185869932175,
+      "n_active": 20
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.04006122425198555,
-      "n_active": 12
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.030328789725899696,
-      "n_active": 11
-    },
-    {
-      "idx": 123,
-      "label": "D&D and role-playing games",
-      "mean_activation": 0.02469417080283165,
-      "n_active": 10
+      "mean_activation": 0.06298951804637909,
+      "n_active": 17
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.024101121351122856,
-      "n_active": 8
+      "mean_activation": 0.04088254272937775,
+      "n_active": 11
     },
     {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.024065835401415825,
-      "n_active": 10
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.03519317880272865,
+      "n_active": 9
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.023951329290866852,
-      "n_active": 8
+      "mean_activation": 0.03051314875483513,
+      "n_active": 9
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.020016824826598167,
-      "n_active": 8
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.02484491840004921,
+      "n_active": 9
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.01895570568740368,
-      "n_active": 6
+      "mean_activation": 0.024813508614897728,
+      "n_active": 9
+    },
+    {
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.023238852620124817,
+      "n_active": 8
+    },
+    {
+      "idx": 23,
+      "label": "drawings",
+      "mean_activation": 0.02209298312664032,
+      "n_active": 7
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.018895773217082024,
-      "n_active": 6
+      "mean_activation": 0.01968696154654026,
+      "n_active": 8
     }
   ]
 }
