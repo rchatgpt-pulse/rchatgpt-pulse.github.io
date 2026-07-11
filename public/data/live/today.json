@@ -1,74 +1,74 @@
 {
-  "date": "2026-07-10",
-  "n_posts": 221,
-  "n_posts_raw": 221,
-  "day_error": 0.7306294441223145,
+  "date": "2026-07-11",
+  "n_posts": 246,
+  "n_posts_raw": 246,
+  "day_error": 0.722589373588562,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
   "model_version": "v2",
   "trained_through": "2025-11-30",
-  "alert": false,
+  "alert": true,
   "top_features": [
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09432894736528397,
-      "n_active": 57
-    },
-    {
-      "idx": 125,
-      "label": "GPT model version numbers starting with 5 (e.g.",
-      "mean_activation": 0.0622858963906765,
-      "n_active": 50
-    },
-    {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.0452955961227417,
-      "n_active": 34
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.03808588162064552,
-      "n_active": 28
-    },
-    {
-      "idx": 87,
-      "label": "being a Plus subscriber or Plus user who lacks ...",
-      "mean_activation": 0.03743724152445793,
-      "n_active": 30
+      "mean_activation": 0.10334663838148117,
+      "n_active": 75
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02603033185005188,
-      "n_active": 23
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.02423303760588169,
-      "n_active": 19
-    },
-    {
-      "idx": 27,
-      "label": "the return or presence of legacy or older GPT-4...",
-      "mean_activation": 0.02336297743022442,
-      "n_active": 21
+      "mean_activation": 0.04366876557469368,
+      "n_active": 41
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.022798210382461548,
-      "n_active": 14
+      "mean_activation": 0.04108728840947151,
+      "n_active": 28
     },
     {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.022645367309451103,
+      "idx": 125,
+      "label": "GPT model version numbers starting with 5 (e.g.",
+      "mean_activation": 0.03972002863883972,
+      "n_active": 32
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.03801724314689636,
+      "n_active": 25
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.03264368698000908,
+      "n_active": 29
+    },
+    {
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.024822847917675972,
+      "n_active": 18
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.023060373961925507,
+      "n_active": 22
+    },
+    {
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.02108575589954853,
       "n_active": 17
+    },
+    {
+      "idx": 74,
+      "label": "'models'",
+      "mean_activation": 0.020746707916259766,
+      "n_active": 18
     }
   ]
 }

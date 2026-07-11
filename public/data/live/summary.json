@@ -1,11 +1,11 @@
 {
-  "latest_date": "2026-07-10",
+  "latest_date": "2026-07-11",
   "first_observed_date": "2026-05-03",
-  "n_observations": 67,
+  "n_observations": 68,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "alpha": 0.1,
   "model_version": "v2",
-  "current_rejected": false,
-  "ever_rejected": false
+  "current_rejected": true,
+  "ever_rejected": true
 }
