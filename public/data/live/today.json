@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-22",
-  "n_posts": 128,
-  "n_posts_raw": 128,
-  "day_error": 0.6946514844894409,
+  "date": "2026-07-23",
+  "n_posts": 155,
+  "n_posts_raw": 155,
+  "day_error": 0.7173648476600647,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.06229674071073532,
-      "n_active": 24
+      "mean_activation": 0.12871327996253967,
+      "n_active": 48
     },
     {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03408290818333626,
-      "n_active": 13
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.031885113567113876,
-      "n_active": 11
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.03475957363843918,
+      "n_active": 16
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.031189491972327232,
+      "mean_activation": 0.025868874043226242,
       "n_active": 15
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.030102115124464035,
-      "n_active": 12
+      "mean_activation": 0.021708346903324127,
+      "n_active": 9
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.019287656992673874,
+      "n_active": 10
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.019102590158581734,
+      "n_active": 11
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.01882648840546608,
+      "n_active": 10
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.028025271371006966,
+      "mean_activation": 0.018220221623778343,
+      "n_active": 9
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.017986910417675972,
       "n_active": 11
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.027889057993888855,
-      "n_active": 11
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.026653826236724854,
-      "n_active": 12
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.026236696168780327,
-      "n_active": 11
-    },
-    {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.0239102840423584,
-      "n_active": 12
+      "idx": 23,
+      "label": "drawings",
+      "mean_activation": 0.017888356000185013,
+      "n_active": 10
     }
   ]
 }
