@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-25",
-  "n_posts": 119,
-  "n_posts_raw": 119,
-  "day_error": 0.7008799910545349,
+  "date": "2026-07-26",
+  "n_posts": 153,
+  "n_posts_raw": 153,
+  "day_error": 0.7071409821510315,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10416227579116821,
-      "n_active": 35
+      "mean_activation": 0.09688711166381836,
+      "n_active": 45
     },
     {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.040910620242357254,
-      "n_active": 14
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.08089765906333923,
+      "n_active": 37
     },
     {
-      "idx": 12,
-      "label": "or refers explicitly to image generation prompt...",
-      "mean_activation": 0.03398856893181801,
-      "n_active": 12
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.03689175099134445,
+      "n_active": 15
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03239870443940163,
-      "n_active": 14
+      "mean_activation": 0.03539658710360527,
+      "n_active": 18
+    },
+    {
+      "idx": 74,
+      "label": "'models'",
+      "mean_activation": 0.034272462129592896,
+      "n_active": 17
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.03082669898867607,
+      "n_active": 19
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02930438332259655,
-      "n_active": 13
+      "mean_activation": 0.02843380905687809,
+      "n_active": 17
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.028204485774040222,
-      "n_active": 12
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.02764899469912052,
+      "n_active": 16
     },
     {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.02176763489842415,
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.024829048663377762,
       "n_active": 10
-    },
-    {
-      "idx": 22,
-      "label": "poetic language",
-      "mean_activation": 0.021617328748106956,
-      "n_active": 7
-    },
-    {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.019432704895734787,
-      "n_active": 9
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.018707718700170517,
-      "n_active": 7
+      "mean_activation": 0.024178797379136086,
+      "n_active": 11
     }
   ]
 }
