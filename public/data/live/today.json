@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-26",
-  "n_posts": 153,
-  "n_posts_raw": 153,
-  "day_error": 0.7071409821510315,
+  "date": "2026-07-27",
+  "n_posts": 140,
+  "n_posts_raw": 140,
+  "day_error": 0.7083282470703125,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09688711166381836,
-      "n_active": 45
+      "mean_activation": 0.0905599519610405,
+      "n_active": 36
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.03476649895310402,
+      "n_active": 16
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.08089765906333923,
-      "n_active": 37
-    },
-    {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.03689175099134445,
-      "n_active": 15
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03539658710360527,
-      "n_active": 18
-    },
-    {
-      "idx": 74,
-      "label": "'models'",
-      "mean_activation": 0.034272462129592896,
-      "n_active": 17
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.03082669898867607,
-      "n_active": 19
+      "mean_activation": 0.03421692177653313,
+      "n_active": 16
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02843380905687809,
-      "n_active": 17
+      "mean_activation": 0.02571653202176094,
+      "n_active": 15
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.02764899469912052,
-      "n_active": 16
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.024455145001411438,
+      "n_active": 12
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.024829048663377762,
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.023859187960624695,
       "n_active": 10
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.024178797379136086,
+      "idx": 68,
+      "label": "offensive or inappropriate content",
+      "mean_activation": 0.022562121972441673,
+      "n_active": 13
+    },
+    {
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.019650127738714218,
+      "n_active": 9
+    },
+    {
+      "idx": 36,
+      "label": "the exact word 'ChatGPT' at the start of the text",
+      "mean_activation": 0.019123459234833717,
       "n_active": 11
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.018292104825377464,
+      "n_active": 8
     }
   ]
 }
