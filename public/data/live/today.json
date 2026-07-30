@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-29",
-  "n_posts": 106,
-  "n_posts_raw": 106,
-  "day_error": 0.7197295427322388,
+  "date": "2026-07-30",
+  "n_posts": 117,
+  "n_posts_raw": 117,
+  "day_error": 0.7011463046073914,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.05964003875851631,
-      "n_active": 15
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.058374885469675064,
-      "n_active": 18
-    },
-    {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.03233620524406433,
-      "n_active": 13
+      "mean_activation": 0.09469899535179138,
+      "n_active": 31
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.0296360794454813,
-      "n_active": 10
+      "mean_activation": 0.03901337459683418,
+      "n_active": 17
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.037769999355077744,
+      "n_active": 13
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.029268987476825714,
-      "n_active": 10
+      "mean_activation": 0.03737156465649605,
+      "n_active": 16
     },
     {
-      "idx": 107,
-      "label": "marketing, advertising, business growth",
-      "mean_activation": 0.024923881515860558,
-      "n_active": 9
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.029030820354819298,
+      "n_active": 12
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.023973222821950912,
-      "n_active": 11
-    },
-    {
-      "idx": 72,
-      "label": "requests to turn specific features off",
-      "mean_activation": 0.02353603020310402,
+      "idx": 103,
+      "label": "movies, posters, and film",
+      "mean_activation": 0.0253212321549654,
       "n_active": 10
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.022334372624754906,
-      "n_active": 7
+      "mean_activation": 0.020427297800779343,
+      "n_active": 9
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.02152371034026146,
-      "n_active": 9
+      "idx": 68,
+      "label": "offensive or inappropriate content",
+      "mean_activation": 0.02015894278883934,
+      "n_active": 10
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.01918279379606247,
+      "n_active": 10
+    },
+    {
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.01917528547346592,
+      "n_active": 7
     }
   ]
 }
