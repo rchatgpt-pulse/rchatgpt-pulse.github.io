@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-31",
-  "n_posts": 149,
-  "n_posts_raw": 149,
-  "day_error": 0.7049903869628906,
+  "date": "2026-08-01",
+  "n_posts": 155,
+  "n_posts_raw": 155,
+  "day_error": 0.7046860456466675,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08092787116765976,
-      "n_active": 32
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.036072589457035065,
-      "n_active": 15
+      "mean_activation": 0.07251670956611633,
+      "n_active": 30
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03255850076675415,
-      "n_active": 16
+      "mean_activation": 0.03837137296795845,
+      "n_active": 21
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.023577017709612846,
-      "n_active": 12
-    },
-    {
-      "idx": 36,
-      "label": "the exact word 'ChatGPT' at the start of the text",
-      "mean_activation": 0.020712902769446373,
-      "n_active": 11
-    },
-    {
-      "idx": 74,
-      "label": "'models'",
-      "mean_activation": 0.020412808284163475,
-      "n_active": 11
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.01990899071097374,
-      "n_active": 12
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.036483436822891235,
+      "n_active": 19
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.019485196098685265,
+      "mean_activation": 0.031871452927589417,
+      "n_active": 20
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.027078112587332726,
       "n_active": 12
     },
     {
-      "idx": 67,
-      "label": "AI-related companies",
-      "mean_activation": 0.018941935151815414,
-      "n_active": 10
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.021838095039129257,
+      "n_active": 11
     },
     {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.017822759225964546,
-      "n_active": 12
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.02085769735276699,
+      "n_active": 11
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.019390612840652466,
+      "n_active": 8
+    },
+    {
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.01928601786494255,
+      "n_active": 8
+    },
+    {
+      "idx": 12,
+      "label": "or refers explicitly to image generation prompt...",
+      "mean_activation": 0.01916094496846199,
+      "n_active": 11
     }
   ]
 }
