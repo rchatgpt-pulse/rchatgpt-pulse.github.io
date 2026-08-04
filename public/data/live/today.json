@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-03",
-  "n_posts": 137,
-  "n_posts_raw": 137,
-  "day_error": 0.7052161693572998,
+  "date": "2026-08-04",
+  "n_posts": 120,
+  "n_posts_raw": 120,
+  "day_error": 0.7205173373222351,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10254116356372833,
-      "n_active": 35
+      "mean_activation": 0.13536883890628815,
+      "n_active": 41
     },
     {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.0415203794836998,
-      "n_active": 16
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.028262559324502945,
+      "n_active": 12
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.027874229475855827,
+      "n_active": 10
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.03816495090723038,
-      "n_active": 15
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.031403083354234695,
-      "n_active": 14
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.026822766289114952,
-      "n_active": 12
+      "mean_activation": 0.027708280831575394,
+      "n_active": 10
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.026258861646056175,
+      "mean_activation": 0.026095455512404442,
       "n_active": 10
+    },
+    {
+      "idx": 76,
+      "label": "URLs linking to preview.redd.it images",
+      "mean_activation": 0.02507779374718666,
+      "n_active": 14
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02400054596364498,
+      "n_active": 11
     },
     {
       "idx": 71,
       "label": "OpenAI explicitly by name",
-      "mean_activation": 0.02535816840827465,
-      "n_active": 11
+      "mean_activation": 0.02276480197906494,
+      "n_active": 9
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.021164443343877792,
-      "n_active": 13
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.018379557877779007,
+      "n_active": 5
     },
     {
-      "idx": 118,
-      "label": "prompts or requests for brutal",
-      "mean_activation": 0.018192484974861145,
-      "n_active": 10
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.01782676763832569,
-      "n_active": 10
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.01820925436913967,
+      "n_active": 9
     }
   ]
 }
