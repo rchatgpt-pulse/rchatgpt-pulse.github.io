@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-06",
-  "n_posts": 149,
-  "n_posts_raw": 149,
-  "day_error": 0.7057893872261047,
+  "date": "2026-08-07",
+  "n_posts": 151,
+  "n_posts_raw": 151,
+  "day_error": 0.7008581161499023,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10683298110961914,
-      "n_active": 39
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.04318529739975929,
-      "n_active": 21
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.034620024263858795,
-      "n_active": 21
+      "mean_activation": 0.08670416474342346,
+      "n_active": 35
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.032816026359796524,
-      "n_active": 15
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.025783980265259743,
+      "mean_activation": 0.03202062100172043,
       "n_active": 14
     },
     {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.02117910422384739,
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.028873806819319725,
       "n_active": 13
     },
     {
-      "idx": 99,
-      "label": "the phrase 'advanced voice mode'",
-      "mean_activation": 0.019636161625385284,
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.027267178520560265,
+      "n_active": 15
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.024329550564289093,
+      "n_active": 15
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.02253871224820614,
       "n_active": 10
     },
     {
       "idx": 115,
       "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.0194521714001894,
-      "n_active": 12
+      "mean_activation": 0.019310131669044495,
+      "n_active": 10
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.01908334344625473,
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.01904425583779812,
       "n_active": 11
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.017773065716028214,
-      "n_active": 11
+      "idx": 22,
+      "label": "poetic language",
+      "mean_activation": 0.01850096881389618,
+      "n_active": 8
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.017319338396191597,
+      "n_active": 10
     }
   ]
 }
