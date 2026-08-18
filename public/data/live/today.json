@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-17",
-  "n_posts": 129,
-  "n_posts_raw": 129,
-  "day_error": 0.7158460021018982,
+  "date": "2026-08-18",
+  "n_posts": 128,
+  "n_posts_raw": 128,
+  "day_error": 0.7155294418334961,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10638143867254257,
-      "n_active": 36
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.0341583751142025,
-      "n_active": 16
-    },
-    {
-      "idx": 104,
-      "label": "login problems",
-      "mean_activation": 0.03357852250337601,
-      "n_active": 13
-    },
-    {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.024581551551818848,
-      "n_active": 14
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.024167902767658234,
-      "n_active": 9
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.02362321875989437,
-      "n_active": 11
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.021754339337348938,
-      "n_active": 9
-    },
-    {
-      "idx": 114,
-      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
-      "mean_activation": 0.018376361578702927,
-      "n_active": 9
-    },
-    {
-      "idx": 88,
-      "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.01808536797761917,
-      "n_active": 8
+      "mean_activation": 0.06638197600841522,
+      "n_active": 22
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.016560737043619156,
+      "mean_activation": 0.03404729440808296,
+      "n_active": 16
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.03305322676897049,
+      "n_active": 13
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.027623776346445084,
+      "n_active": 12
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.026820257306098938,
+      "n_active": 12
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.02669757604598999,
+      "n_active": 13
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02658674865961075,
+      "n_active": 15
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.025037622079253197,
+      "n_active": 11
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.02428075298666954,
+      "n_active": 13
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.019762277603149414,
       "n_active": 8
     }
   ]
