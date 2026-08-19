@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-18",
-  "n_posts": 128,
-  "n_posts_raw": 128,
-  "day_error": 0.7155294418334961,
+  "date": "2026-08-19",
+  "n_posts": 114,
+  "n_posts_raw": 114,
+  "day_error": 0.7364662885665894,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.06638197600841522,
-      "n_active": 22
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.03404729440808296,
-      "n_active": 16
+      "mean_activation": 0.06088632717728615,
+      "n_active": 20
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.03305322676897049,
-      "n_active": 13
+      "mean_activation": 0.04209114611148834,
+      "n_active": 16
     },
     {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.027623776346445084,
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03909284621477127,
+      "n_active": 17
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.03483213111758232,
+      "n_active": 14
+    },
+    {
+      "idx": 1,
+      "label": "browser issues or browser extensions",
+      "mean_activation": 0.026075100526213646,
       "n_active": 12
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.026820257306098938,
-      "n_active": 12
-    },
-    {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.02669757604598999,
-      "n_active": 13
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02658674865961075,
-      "n_active": 15
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.025037622079253197,
+      "mean_activation": 0.025520501658320427,
       "n_active": 11
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.02428075298666954,
-      "n_active": 13
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.02546369656920433,
+      "n_active": 12
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.025262784212827682,
+      "n_active": 12
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.019762277603149414,
-      "n_active": 8
+      "mean_activation": 0.024454621598124504,
+      "n_active": 10
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02119806967675686,
+      "n_active": 9
     }
   ]
 }
