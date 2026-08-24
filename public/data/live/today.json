@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-23",
-  "n_posts": 119,
-  "n_posts_raw": 119,
-  "day_error": 0.7198932766914368,
+  "date": "2026-08-24",
+  "n_posts": 150,
+  "n_posts_raw": 150,
+  "day_error": 0.7235615849494934,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08021131157875061,
-      "n_active": 25
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.04168333485722542,
-      "n_active": 20
+      "mean_activation": 0.09080088138580322,
+      "n_active": 39
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.036520540714263916,
-      "n_active": 17
+      "mean_activation": 0.04561556503176689,
+      "n_active": 24
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.033319972455501556,
-      "n_active": 11
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.025943908840417862,
-      "n_active": 11
-    },
-    {
-      "idx": 55,
-      "label": "perception of recent drops in quality",
-      "mean_activation": 0.025005793198943138,
-      "n_active": 11
+      "mean_activation": 0.033478692173957825,
+      "n_active": 15
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.024578144773840904,
-      "n_active": 11
+      "mean_activation": 0.02982463501393795,
+      "n_active": 14
     },
     {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.021107567474246025,
-      "n_active": 10
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.029590439051389694,
+      "n_active": 18
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.026773935183882713,
+      "n_active": 14
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.0250148493796587,
+      "n_active": 13
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.021013835445046425,
-      "n_active": 10
+      "mean_activation": 0.020793957635760307,
+      "n_active": 11
     },
     {
-      "idx": 125,
-      "label": "GPT model version numbers starting with 5 (e.g.",
-      "mean_activation": 0.020744044333696365,
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.019021613523364067,
       "n_active": 9
+    },
+    {
+      "idx": 45,
+      "label": "cross-chat data leaks",
+      "mean_activation": 0.01766814850270748,
+      "n_active": 12
     }
   ]
 }
