@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-28",
-  "n_posts": 141,
-  "n_posts_raw": 141,
-  "day_error": 0.7196603417396545,
+  "date": "2026-08-29",
+  "n_posts": 124,
+  "n_posts_raw": 124,
+  "day_error": 0.7246577143669128,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08296743035316467,
-      "n_active": 34
+      "mean_activation": 0.10064797848463058,
+      "n_active": 31
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.049176160246133804,
-      "n_active": 24
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.03514912724494934,
-      "n_active": 14
+      "mean_activation": 0.03960343077778816,
+      "n_active": 15
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.029723025858402252,
-      "n_active": 12
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.026705391705036163,
+      "mean_activation": 0.03873058408498764,
       "n_active": 15
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.026104822754859924,
-      "n_active": 14
-    },
-    {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.0259292833507061,
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.03577878698706627,
       "n_active": 14
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.021924622356891632,
-      "n_active": 8
+      "mean_activation": 0.031366195529699326,
+      "n_active": 9
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.021071314811706543,
+      "mean_activation": 0.029007399454712868,
+      "n_active": 15
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.028718993067741394,
+      "n_active": 16
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.026551250368356705,
       "n_active": 11
     },
     {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.02050105482339859,
-      "n_active": 13
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.020297594368457794,
+      "n_active": 8
+    },
+    {
+      "idx": 106,
+      "label": "complaints about getting direct or unfiltered answers",
+      "mean_activation": 0.020096611231565475,
+      "n_active": 8
     }
   ]
 }
