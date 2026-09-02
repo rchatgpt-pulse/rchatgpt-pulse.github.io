@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-01",
-  "n_posts": 136,
-  "n_posts_raw": 136,
-  "day_error": 0.7143417596817017,
+  "date": "2026-09-02",
+  "n_posts": 119,
+  "n_posts_raw": 119,
+  "day_error": 0.7226020097732544,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08127256482839584,
-      "n_active": 28
+      "mean_activation": 0.069211944937706,
+      "n_active": 24
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.06727771461009979,
-      "n_active": 27
-    },
-    {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.03750726953148842,
-      "n_active": 15
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.036789778620004654,
-      "n_active": 20
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.028326744213700294,
-      "n_active": 14
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.027231650426983833,
-      "n_active": 15
+      "mean_activation": 0.05393913388252258,
+      "n_active": 19
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.025120949372649193,
-      "n_active": 13
+      "mean_activation": 0.03554822504520416,
+      "n_active": 14
     },
     {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.021191583946347237,
-      "n_active": 11
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.029426209628582,
+      "n_active": 12
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.020746944472193718,
-      "n_active": 7
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.026532895863056183,
+      "n_active": 12
     },
     {
-      "idx": 70,
-      "label": "PDF upload or summarization",
-      "mean_activation": 0.018994027748703957,
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.025670085102319717,
+      "n_active": 8
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.023561671376228333,
+      "n_active": 10
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.02255207486450672,
+      "n_active": 10
+    },
+    {
+      "idx": 72,
+      "label": "requests to turn specific features off",
+      "mean_activation": 0.02221239171922207,
+      "n_active": 10
+    },
+    {
+      "idx": 28,
+      "label": "requests for help",
+      "mean_activation": 0.020866185426712036,
       "n_active": 10
     }
   ]
