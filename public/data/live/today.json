@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-03",
-  "n_posts": 150,
-  "n_posts_raw": 150,
-  "day_error": 0.7292513251304626,
+  "date": "2026-09-04",
+  "n_posts": 243,
+  "n_posts_raw": 243,
+  "day_error": 0.7224259972572327,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.1023949608206749,
-      "n_active": 39
+      "mean_activation": 0.10862022638320923,
+      "n_active": 71
+    },
+    {
+      "idx": 26,
+      "label": "ChatGPT down or unavailable",
+      "mean_activation": 0.07976935058832169,
+      "n_active": 60
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.03745396435260773,
-      "n_active": 20
+      "mean_activation": 0.06467991322278976,
+      "n_active": 49
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.030232470482587814,
-      "n_active": 17
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.03599483519792557,
+      "n_active": 38
+    },
+    {
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.028500836342573166,
+      "n_active": 25
+    },
+    {
+      "idx": 76,
+      "label": "URLs linking to preview.redd.it images",
+      "mean_activation": 0.025734469294548035,
+      "n_active": 27
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.026942456141114235,
-      "n_active": 14
+      "mean_activation": 0.024513429030776024,
+      "n_active": 18
     },
     {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.022324392572045326,
-      "n_active": 12
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.023988068103790283,
+      "n_active": 25
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.021939227357506752,
-      "n_active": 10
-    },
-    {
-      "idx": 45,
-      "label": "cross-chat data leaks",
-      "mean_activation": 0.02064465917646885,
-      "n_active": 13
-    },
-    {
-      "idx": 36,
-      "label": "the exact word 'ChatGPT' at the start of the text",
-      "mean_activation": 0.0206065122038126,
-      "n_active": 11
+      "idx": 84,
+      "label": "questions about access, versions, pricing",
+      "mean_activation": 0.022145407274365425,
+      "n_active": 26
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.020311100408434868,
-      "n_active": 11
-    },
-    {
-      "idx": 27,
-      "label": "the return or presence of legacy or older GPT-4...",
-      "mean_activation": 0.01985074207186699,
-      "n_active": 14
+      "mean_activation": 0.020000066608190536,
+      "n_active": 20
     }
   ]
 }
