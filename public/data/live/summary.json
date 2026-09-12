@@ -1,7 +1,7 @@
 {
-  "latest_date": "2026-09-11",
+  "latest_date": "2026-09-12",
   "first_observed_date": "2026-05-03",
-  "n_observations": 130,
+  "n_observations": 131,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "alpha": 0.1,

@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-11",
-  "n_posts": 199,
-  "n_posts_raw": 199,
-  "day_error": 0.7517961859703064,
+  "date": "2026-09-12",
+  "n_posts": 203,
+  "n_posts_raw": 203,
+  "day_error": 0.7250980138778687,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09324467927217484,
-      "n_active": 50
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.050850532948970795,
-      "n_active": 29
+      "mean_activation": 0.09506635367870331,
+      "n_active": 58
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.04252617806196213,
-      "n_active": 31
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.03943759202957153,
-      "n_active": 30
+      "mean_activation": 0.04660741612315178,
+      "n_active": 34
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.030011655762791634,
-      "n_active": 21
+      "mean_activation": 0.03827402740716934,
+      "n_active": 25
     },
     {
-      "idx": 105,
-      "label": "Feature 105",
-      "mean_activation": 0.027776572853326797,
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03587676212191582,
+      "n_active": 30
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.03535015881061554,
+      "n_active": 22
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.031009262427687645,
+      "n_active": 22
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.028259608894586563,
+      "n_active": 18
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.026281213387846947,
       "n_active": 19
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.026195164769887924,
-      "n_active": 16
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.025232331827282906,
+      "mean_activation": 0.02279946766793728,
       "n_active": 17
     },
     {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.024290068075060844,
-      "n_active": 17
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.022616902366280556,
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.021166585385799408,
       "n_active": 17
     }
   ]
