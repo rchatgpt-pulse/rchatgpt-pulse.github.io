@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-14",
-  "n_posts": 174,
-  "n_posts_raw": 174,
-  "day_error": 0.7258034348487854,
+  "date": "2026-09-15",
+  "n_posts": 162,
+  "n_posts_raw": 162,
+  "day_error": 0.7195175886154175,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.06720699369907379,
-      "n_active": 35
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.04621800035238266,
-      "n_active": 23
+      "mean_activation": 0.0975612998008728,
+      "n_active": 43
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.042047664523124695,
-      "n_active": 24
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03582477942109108,
-      "n_active": 21
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.03559980168938637,
+      "mean_activation": 0.053598493337631226,
       "n_active": 26
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.028960006311535835,
-      "n_active": 15
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.028186682611703873,
+      "mean_activation": 0.04148330166935921,
+      "n_active": 19
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.04093702509999275,
+      "n_active": 19
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.040466997772455215,
+      "n_active": 22
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03152746707201004,
+      "n_active": 19
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.02318185567855835,
       "n_active": 14
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.026826467365026474,
-      "n_active": 16
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.022324638441205025,
+      "n_active": 15
     },
     {
-      "idx": 123,
-      "label": "D&D and role-playing games",
-      "mean_activation": 0.020749235525727272,
-      "n_active": 13
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.0221770778298378,
+      "n_active": 15
     },
     {
-      "idx": 94,
-      "label": "discusses photo restoration",
-      "mean_activation": 0.019744157791137695,
-      "n_active": 13
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.021511264145374298,
+      "n_active": 11
     }
   ]
 }
