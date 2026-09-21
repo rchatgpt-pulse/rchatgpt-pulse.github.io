@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-20",
-  "n_posts": 168,
-  "n_posts_raw": 168,
-  "day_error": 0.7145102620124817,
+  "date": "2026-09-21",
+  "n_posts": 147,
+  "n_posts_raw": 147,
+  "day_error": 0.7331390380859375,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08988197892904282,
-      "n_active": 42
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.03791338950395584,
-      "n_active": 19
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03519029915332794,
-      "n_active": 19
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.034024886786937714,
-      "n_active": 19
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.03236444294452667,
-      "n_active": 21
+      "mean_activation": 0.09875695407390594,
+      "n_active": 40
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.029100287705659866,
-      "n_active": 14
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.02860398031771183,
+      "mean_activation": 0.041601695120334625,
       "n_active": 17
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.024477655068039894,
-      "n_active": 13
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.040444210171699524,
+      "n_active": 18
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.023852428421378136,
-      "n_active": 14
+      "mean_activation": 0.0361844003200531,
+      "n_active": 17
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.02331785298883915,
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03566231206059456,
+      "n_active": 19
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.02543410286307335,
       "n_active": 15
+    },
+    {
+      "idx": 23,
+      "label": "drawings",
+      "mean_activation": 0.02330807037651539,
+      "n_active": 13
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.02134493552148342,
+      "n_active": 10
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.019776953384280205,
+      "n_active": 13
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.018757756799459457,
+      "n_active": 10
     }
   ]
 }
