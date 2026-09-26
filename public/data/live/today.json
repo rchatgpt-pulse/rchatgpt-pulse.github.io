@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-25",
-  "n_posts": 172,
-  "n_posts_raw": 172,
-  "day_error": 0.7282934784889221,
+  "date": "2026-09-26",
+  "n_posts": 181,
+  "n_posts_raw": 181,
+  "day_error": 0.724373459815979,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09097333997488022,
-      "n_active": 43
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.035443875938653946,
-      "n_active": 25
+      "mean_activation": 0.08702744543552399,
+      "n_active": 48
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.03450748696923256,
-      "n_active": 19
-    },
-    {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.026560021564364433,
-      "n_active": 12
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.0248568058013916,
-      "n_active": 16
-    },
-    {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.02460896223783493,
-      "n_active": 16
+      "mean_activation": 0.038080744445323944,
+      "n_active": 22
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.02168930321931839,
-      "n_active": 15
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.02141100913286209,
-      "n_active": 14
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.019439222291111946,
-      "n_active": 11
+      "mean_activation": 0.0367838479578495,
+      "n_active": 18
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.019067836925387383,
-      "n_active": 11
+      "mean_activation": 0.03373115882277489,
+      "n_active": 23
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.03086136281490326,
+      "n_active": 22
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.029632646590471268,
+      "n_active": 15
+    },
+    {
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.026764772832393646,
+      "n_active": 19
+    },
+    {
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.02612537518143654,
+      "n_active": 15
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.0246551763266325,
+      "n_active": 17
+    },
+    {
+      "idx": 1,
+      "label": "browser issues or browser extensions",
+      "mean_activation": 0.021676385775208473,
+      "n_active": 13
     }
   ]
 }
