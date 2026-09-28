@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-27",
-  "n_posts": 156,
-  "n_posts_raw": 156,
-  "day_error": 0.7151479125022888,
+  "date": "2026-09-28",
+  "n_posts": 173,
+  "n_posts_raw": 173,
+  "day_error": 0.7210789322853088,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.06544200330972672,
-      "n_active": 30
+      "mean_activation": 0.08729453384876251,
+      "n_active": 42
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.05948563665151596,
-      "n_active": 27
+      "mean_activation": 0.037647511810064316,
+      "n_active": 19
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.031080124899744987,
+      "n_active": 15
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.03569465130567551,
-      "n_active": 19
+      "mean_activation": 0.02729053981602192,
+      "n_active": 16
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.027236463502049446,
+      "n_active": 14
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.02880936488509178,
+      "mean_activation": 0.02562553994357586,
       "n_active": 18
     },
     {
       "idx": 44,
       "label": "organizing or searching chat histories",
-      "mean_activation": 0.027255820110440254,
-      "n_active": 15
+      "mean_activation": 0.025375956669449806,
+      "n_active": 17
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.025513367727398872,
-      "n_active": 16
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.02405809424817562,
+      "n_active": 12
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.022563233971595764,
+      "n_active": 12
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.024668013677001,
-      "n_active": 13
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.0227056872099638,
-      "n_active": 15
-    },
-    {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.022613950073719025,
+      "mean_activation": 0.02044370211660862,
       "n_active": 11
-    },
-    {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.022106263786554337,
-      "n_active": 13
     }
   ]
 }
