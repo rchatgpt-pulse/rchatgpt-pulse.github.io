@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-09",
-  "n_posts": 156,
-  "n_posts_raw": 156,
-  "day_error": 0.7279015183448792,
+  "date": "2026-10-10",
+  "n_posts": 167,
+  "n_posts_raw": 167,
+  "day_error": 0.7290303707122803,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.11481407284736633,
-      "n_active": 47
+      "mean_activation": 0.0847456157207489,
+      "n_active": 43
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.048204001039266586,
-      "n_active": 23
+      "mean_activation": 0.05600861832499504,
+      "n_active": 31
     },
     {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.03539777547121048,
-      "n_active": 19
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.030222170054912567,
+      "n_active": 18
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.032659269869327545,
-      "n_active": 20
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.026257511228322983,
+      "n_active": 15
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.025325244292616844,
+      "n_active": 15
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.028423871845006943,
+      "mean_activation": 0.024374211207032204,
+      "n_active": 14
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.02236802875995636,
       "n_active": 15
     },
     {
-      "idx": 74,
-      "label": "'models'",
-      "mean_activation": 0.021740371361374855,
-      "n_active": 11
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.02219073288142681,
+      "n_active": 14
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.020475441589951515,
-      "n_active": 11
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.02193939872086048,
+      "n_active": 12
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.020457196980714798,
-      "n_active": 10
-    },
-    {
-      "idx": 27,
-      "label": "the return or presence of legacy or older GPT-4...",
-      "mean_activation": 0.01973785273730755,
-      "n_active": 13
-    },
-    {
-      "idx": 110,
-      "label": "Feature 110",
-      "mean_activation": 0.018855303525924683,
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.021743180230259895,
       "n_active": 11
     }
   ]
