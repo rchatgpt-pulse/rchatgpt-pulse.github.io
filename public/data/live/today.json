@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "n_posts": 110,
   "n_posts_raw": 110,
-  "day_error": 0.7138289213180542,
+  "day_error": 0.7352831959724426,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10229672491550446,
-      "n_active": 30
+      "mean_activation": 0.10004068166017532,
+      "n_active": 27
     },
     {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.03489002585411072,
-      "n_active": 14
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03821960464119911,
+      "n_active": 17
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.03787478432059288,
+      "n_active": 17
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03131437674164772,
-      "n_active": 14
+      "mean_activation": 0.033036891371011734,
+      "n_active": 15
     },
     {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.026118556037545204,
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.029144391417503357,
       "n_active": 12
     },
     {
-      "idx": 8,
-      "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.025673892349004745,
-      "n_active": 10
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.0254337377846241,
-      "n_active": 11
-    },
-    {
-      "idx": 110,
-      "label": "Feature 110",
-      "mean_activation": 0.01997353322803974,
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.025928165763616562,
       "n_active": 9
     },
     {
       "idx": 88,
       "label": "user-built projects (sharing or feedback)",
-      "mean_activation": 0.01997288130223751,
-      "n_active": 8
+      "mean_activation": 0.025650814175605774,
+      "n_active": 11
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.019721630960702896,
-      "n_active": 6
+      "mean_activation": 0.022696617990732193,
+      "n_active": 9
     },
     {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.019530057907104492,
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.02190229669213295,
       "n_active": 9
+    },
+    {
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.020394882187247276,
+      "n_active": 6
     }
   ]
 }
