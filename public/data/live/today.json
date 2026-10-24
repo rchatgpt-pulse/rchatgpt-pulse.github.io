@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-23",
-  "n_posts": 164,
-  "n_posts_raw": 164,
-  "day_error": 0.7080961465835571,
+  "date": "2026-10-24",
+  "n_posts": 137,
+  "n_posts_raw": 137,
+  "day_error": 0.7277554273605347,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.06999392062425613,
-      "n_active": 31
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.053325798362493515,
-      "n_active": 31
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.03820625692605972,
-      "n_active": 20
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.03251933306455612,
-      "n_active": 20
+      "mean_activation": 0.10005444288253784,
+      "n_active": 35
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.03170740231871605,
-      "n_active": 18
+      "mean_activation": 0.04131992533802986,
+      "n_active": 19
     },
     {
       "idx": 127,
       "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.029075268656015396,
-      "n_active": 19
+      "mean_activation": 0.03388858586549759,
+      "n_active": 18
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.024676909670233727,
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03367500752210617,
+      "n_active": 18
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.029084810987114906,
+      "n_active": 15
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.028282254934310913,
       "n_active": 13
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.019121535122394562,
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.02809303067624569,
+      "n_active": 14
+    },
+    {
+      "idx": 123,
+      "label": "D&D and role-playing games",
+      "mean_activation": 0.027884921059012413,
       "n_active": 11
     },
     {
-      "idx": 104,
-      "label": "login problems",
-      "mean_activation": 0.017864739522337914,
-      "n_active": 11
+      "idx": 114,
+      "label": "GPT-4 or GPT4 (including variants like GPT-4o",
+      "mean_activation": 0.02601160854101181,
+      "n_active": 12
     },
     {
-      "idx": 67,
-      "label": "AI-related companies",
-      "mean_activation": 0.01775006204843521,
-      "n_active": 10
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.021088898181915283,
+      "n_active": 9
     }
   ]
 }
