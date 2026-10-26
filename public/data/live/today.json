@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-25",
-  "n_posts": 119,
-  "n_posts_raw": 119,
-  "day_error": 0.727712094783783,
+  "date": "2026-10-26",
+  "n_posts": 113,
+  "n_posts_raw": 113,
+  "day_error": 0.7189930081367493,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.09112318605184555,
-      "n_active": 27
+      "mean_activation": 0.11084926128387451,
+      "n_active": 33
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.04941327124834061,
-      "n_active": 19
-    },
-    {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.03011545166373253,
-      "n_active": 11
+      "mean_activation": 0.04273496940732002,
+      "n_active": 14
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.027169352397322655,
-      "n_active": 12
+      "mean_activation": 0.03933339565992355,
+      "n_active": 14
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.026689399033784866,
-      "n_active": 13
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.024100471287965775,
-      "n_active": 9
-    },
-    {
-      "idx": 28,
-      "label": "requests for help",
-      "mean_activation": 0.023072583600878716,
+      "mean_activation": 0.028126949444413185,
       "n_active": 12
     },
     {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.022731956094503403,
-      "n_active": 10
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.025666648522019386,
+      "n_active": 9
     },
     {
-      "idx": 115,
-      "label": "Mentions or discusses mobile apps specifically ...",
-      "mean_activation": 0.021161433309316635,
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.023345841094851494,
       "n_active": 8
+    },
+    {
+      "idx": 36,
+      "label": "the exact word 'ChatGPT' at the start of the text",
+      "mean_activation": 0.021743379533290863,
+      "n_active": 9
     },
     {
       "idx": 71,
       "label": "OpenAI explicitly by name",
-      "mean_activation": 0.02098706178367138,
-      "n_active": 9
+      "mean_activation": 0.020464090630412102,
+      "n_active": 7
+    },
+    {
+      "idx": 88,
+      "label": "user-built projects (sharing or feedback)",
+      "mean_activation": 0.020008129999041557,
+      "n_active": 8
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.019848881289362907,
+      "n_active": 11
     }
   ]
 }
