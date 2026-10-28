@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-27",
-  "n_posts": 114,
-  "n_posts_raw": 114,
-  "day_error": 0.7234466671943665,
+  "date": "2026-10-28",
+  "n_posts": 107,
+  "n_posts_raw": 107,
+  "day_error": 0.706368088722229,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -11,64 +11,64 @@
   "alert": true,
   "top_features": [
     {
-      "idx": 10,
-      "label": "informal",
-      "mean_activation": 0.06865924596786499,
-      "n_active": 22
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.05631097033619881,
-      "n_active": 24
-    },
-    {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.04081529751420021,
-      "n_active": 19
+      "mean_activation": 0.05035242810845375,
+      "n_active": 17
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.03671712800860405,
-      "n_active": 14
-    },
-    {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.036487992852926254,
-      "n_active": 14
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.034699469804763794,
-      "n_active": 16
-    },
-    {
-      "idx": 110,
-      "label": "Feature 110",
-      "mean_activation": 0.03274090960621834,
+      "idx": 10,
+      "label": "informal",
+      "mean_activation": 0.046580567955970764,
       "n_active": 13
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03241585195064545,
-      "n_active": 12
     },
     {
       "idx": 127,
       "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.029179153963923454,
-      "n_active": 14
+      "mean_activation": 0.03935740888118744,
+      "n_active": 16
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.03375320881605148,
+      "n_active": 13
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.0330701619386673,
+      "n_active": 9
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.03080727718770504,
+      "n_active": 13
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.026874596253037453,
-      "n_active": 9
+      "mean_activation": 0.029490886256098747,
+      "n_active": 10
+    },
+    {
+      "idx": 82,
+      "label": "failing to follow user instructions",
+      "mean_activation": 0.024875318631529808,
+      "n_active": 11
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.02267591841518879,
+      "n_active": 10
+    },
+    {
+      "idx": 55,
+      "label": "perception of recent drops in quality",
+      "mean_activation": 0.022470470517873764,
+      "n_active": 8
     }
   ]
 }
