@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "n_posts": 139,
   "n_posts_raw": 139,
-  "day_error": 0.7358731627464294,
+  "day_error": 0.7345464825630188,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10100594162940979,
-      "n_active": 35
+      "mean_activation": 0.09530529379844666,
+      "n_active": 37
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.05176587402820587,
-      "n_active": 27
+      "mean_activation": 0.04111555963754654,
+      "n_active": 19
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.03249049186706543,
-      "n_active": 13
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.03942273557186127,
+      "n_active": 22
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.031052421778440475,
-      "n_active": 13
+      "mean_activation": 0.03534545376896858,
+      "n_active": 19
     },
     {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.029695065692067146,
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.034298431128263474,
       "n_active": 14
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.027734952047467232,
-      "n_active": 11
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.025393160060048103,
+      "mean_activation": 0.033921387046575546,
       "n_active": 13
     },
     {
-      "idx": 82,
-      "label": "failing to follow user instructions",
-      "mean_activation": 0.024950383231043816,
-      "n_active": 13
-    },
-    {
-      "idx": 92,
-      "label": "ChatGPT failing to process inputs",
-      "mean_activation": 0.024786952883005142,
-      "n_active": 13
-    },
-    {
-      "idx": 18,
-      "label": "Feature 18",
-      "mean_activation": 0.023662419989705086,
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.029974309727549553,
       "n_active": 14
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.025004874914884567,
+      "n_active": 14
+    },
+    {
+      "idx": 104,
+      "label": "login problems",
+      "mean_activation": 0.021372441202402115,
+      "n_active": 10
+    },
+    {
+      "idx": 55,
+      "label": "perception of recent drops in quality",
+      "mean_activation": 0.020676901564002037,
+      "n_active": 11
     }
   ]
 }
