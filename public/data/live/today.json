@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "n_posts": 147,
   "n_posts_raw": 147,
-  "day_error": 0.7250399589538574,
+  "day_error": 0.7306864857673645,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.1364574432373047,
-      "n_active": 51
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.042909685522317886,
-      "n_active": 18
+      "mean_activation": 0.0938614085316658,
+      "n_active": 36
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.038086652755737305,
-      "n_active": 18
+      "mean_activation": 0.044619329273700714,
+      "n_active": 20
     },
     {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.02967050112783909,
-      "n_active": 11
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.03660617396235466,
+      "n_active": 17
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.027263374999165535,
-      "n_active": 13
+      "idx": 18,
+      "label": "Feature 18",
+      "mean_activation": 0.0357963889837265,
+      "n_active": 21
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.02508755959570408,
-      "n_active": 11
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.023120667785406113,
-      "n_active": 11
-    },
-    {
-      "idx": 127,
-      "label": "jailbreaking via DAN or personas",
-      "mean_activation": 0.023014981299638748,
-      "n_active": 11
-    },
-    {
-      "idx": 111,
-      "label": "memory features and data saving",
-      "mean_activation": 0.022782163694500923,
-      "n_active": 12
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.033678844571113586,
+      "n_active": 19
     },
     {
       "idx": 97,
       "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.022507697343826294,
-      "n_active": 12
+      "mean_activation": 0.029080059379339218,
+      "n_active": 16
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.028582708910107613,
+      "n_active": 13
+    },
+    {
+      "idx": 8,
+      "label": "lost, deleted, or missing conversations",
+      "mean_activation": 0.02627440355718136,
+      "n_active": 18
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.02571154199540615,
+      "n_active": 16
+    },
+    {
+      "idx": 115,
+      "label": "Mentions or discusses mobile apps specifically ...",
+      "mean_activation": 0.025590576231479645,
+      "n_active": 15
     }
   ]
 }
