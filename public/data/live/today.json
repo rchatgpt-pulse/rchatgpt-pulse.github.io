@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-05",
-  "n_posts": 177,
-  "n_posts_raw": 177,
-  "day_error": 0.7283749580383301,
+  "date": "2026-11-06",
+  "n_posts": 158,
+  "n_posts_raw": 158,
+  "day_error": 0.7332637906074524,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.10227841138839722,
-      "n_active": 50
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.03449849784374237,
-      "n_active": 21
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.03428620845079422,
-      "n_active": 22
-    },
-    {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.032886847853660583,
-      "n_active": 17
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.02921614982187748,
-      "n_active": 17
+      "mean_activation": 0.12087199091911316,
+      "n_active": 45
     },
     {
       "idx": 49,
       "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.02912990376353264,
-      "n_active": 15
+      "mean_activation": 0.03895176947116852,
+      "n_active": 21
     },
     {
       "idx": 86,
       "label": "Feature 86",
-      "mean_activation": 0.02592085488140583,
+      "mean_activation": 0.03169316425919533,
+      "n_active": 14
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.030939633026719093,
+      "n_active": 19
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.02952640876173973,
       "n_active": 15
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.028676144778728485,
+      "n_active": 16
+    },
+    {
+      "idx": 124,
+      "label": "message limits or caps",
+      "mean_activation": 0.02645253576338291,
+      "n_active": 15
+    },
+    {
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.025365537032485008,
+      "n_active": 16
     },
     {
       "idx": 38,
       "label": "tool usage questions",
-      "mean_activation": 0.023618698120117188,
+      "mean_activation": 0.024754080921411514,
       "n_active": 16
     },
     {
-      "idx": 4,
-      "label": "Sam Altman",
-      "mean_activation": 0.02293696068227291,
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.019438764080405235,
       "n_active": 11
-    },
-    {
-      "idx": 111,
-      "label": "memory features and data saving",
-      "mean_activation": 0.021490994840860367,
-      "n_active": 16
     }
   ]
 }
