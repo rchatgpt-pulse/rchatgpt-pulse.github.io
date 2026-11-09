@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-08",
-  "n_posts": 119,
-  "n_posts_raw": 119,
-  "day_error": 0.7304844260215759,
+  "date": "2026-11-09",
+  "n_posts": 120,
+  "n_posts_raw": 120,
+  "day_error": 0.7101821899414062,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,61 +13,61 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.08029362559318542,
+      "mean_activation": 0.06609141081571579,
       "n_active": 25
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.0520893856883049,
+      "n_active": 20
     },
     {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.05977052077651024,
-      "n_active": 21
+      "mean_activation": 0.04170027747750282,
+      "n_active": 15
     },
     {
-      "idx": 104,
-      "label": "login problems",
-      "mean_activation": 0.03832804039120674,
-      "n_active": 12
-    },
-    {
-      "idx": 71,
-      "label": "OpenAI explicitly by name",
-      "mean_activation": 0.03680695593357086,
-      "n_active": 14
-    },
-    {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.035659193992614746,
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.040766142308712006,
       "n_active": 16
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.03260727971792221,
-      "n_active": 14
     },
     {
       "idx": 60,
       "label": "image generation or images generated",
-      "mean_activation": 0.027922440320253372,
-      "n_active": 11
+      "mean_activation": 0.0335213728249073,
+      "n_active": 15
     },
     {
-      "idx": 28,
-      "label": "requests for help",
-      "mean_activation": 0.026267431676387787,
-      "n_active": 13
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.033149536699056625,
+      "n_active": 15
     },
     {
-      "idx": 76,
-      "label": "URLs linking to preview.redd.it images",
-      "mean_activation": 0.021062931045889854,
-      "n_active": 11
+      "idx": 71,
+      "label": "OpenAI explicitly by name",
+      "mean_activation": 0.02387380599975586,
+      "n_active": 10
     },
     {
       "idx": 44,
       "label": "organizing or searching chat histories",
-      "mean_activation": 0.02053098753094673,
+      "mean_activation": 0.020904401317238808,
+      "n_active": 10
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.020369483157992363,
+      "n_active": 7
+    },
+    {
+      "idx": 36,
+      "label": "the exact word 'ChatGPT' at the start of the text",
+      "mean_activation": 0.01860012486577034,
       "n_active": 9
     }
   ]
