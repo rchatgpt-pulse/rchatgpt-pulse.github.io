@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-16",
-  "n_posts": 141,
-  "n_posts_raw": 141,
-  "day_error": 0.7058880925178528,
+  "date": "2026-11-17",
+  "n_posts": 153,
+  "n_posts_raw": 153,
+  "day_error": 0.7094115018844604,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -11,64 +11,64 @@
   "alert": true,
   "top_features": [
     {
-      "idx": 10,
-      "label": "informal",
-      "mean_activation": 0.10852435976266861,
-      "n_active": 39
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.04120210185647011,
-      "n_active": 20
-    },
-    {
       "idx": 33,
       "label": "error messages and technical problems",
-      "mean_activation": 0.035917751491069794,
-      "n_active": 17
+      "mean_activation": 0.05861890688538551,
+      "n_active": 27
     },
     {
-      "idx": 60,
-      "label": "image generation or images generated",
-      "mean_activation": 0.03296808898448944,
-      "n_active": 16
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.031003907322883606,
-      "n_active": 15
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.028740601614117622,
-      "n_active": 12
-    },
-    {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.027315251529216766,
-      "n_active": 13
+      "idx": 10,
+      "label": "informal",
+      "mean_activation": 0.05662216991186142,
+      "n_active": 26
     },
     {
       "idx": 124,
       "label": "message limits or caps",
-      "mean_activation": 0.021712444722652435,
-      "n_active": 11
+      "mean_activation": 0.036319196224212646,
+      "n_active": 18
+    },
+    {
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.03620375320315361,
+      "n_active": 17
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.03282283619046211,
+      "n_active": 17
+    },
+    {
+      "idx": 44,
+      "label": "organizing or searching chat histories",
+      "mean_activation": 0.03144967183470726,
+      "n_active": 16
+    },
+    {
+      "idx": 86,
+      "label": "Feature 86",
+      "mean_activation": 0.027542300522327423,
+      "n_active": 14
+    },
+    {
+      "idx": 99,
+      "label": "the phrase 'advanced voice mode'",
+      "mean_activation": 0.024708932265639305,
+      "n_active": 10
+    },
+    {
+      "idx": 127,
+      "label": "jailbreaking via DAN or personas",
+      "mean_activation": 0.024225708097219467,
+      "n_active": 14
     },
     {
       "idx": 8,
       "label": "lost, deleted, or missing conversations",
-      "mean_activation": 0.02136223018169403,
-      "n_active": 11
-    },
-    {
-      "idx": 117,
-      "label": "prompts and prompting",
-      "mean_activation": 0.018638039007782936,
-      "n_active": 8
+      "mean_activation": 0.024119272828102112,
+      "n_active": 14
     }
   ]
 }
