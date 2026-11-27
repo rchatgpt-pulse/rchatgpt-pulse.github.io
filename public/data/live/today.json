@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-26",
-  "n_posts": 171,
-  "n_posts_raw": 171,
-  "day_error": 0.7179904580116272,
+  "date": "2026-11-27",
+  "n_posts": 135,
+  "n_posts_raw": 135,
+  "day_error": 0.7154613733291626,
   "training_error": 0.6497399806976318,
   "factor": 1.05,
   "effective_baseline": 0.6822269797325134,
@@ -13,62 +13,62 @@
     {
       "idx": 10,
       "label": "informal",
-      "mean_activation": 0.11470396816730499,
-      "n_active": 49
-    },
-    {
-      "idx": 49,
-      "label": "pricing and free vs paid comparisons",
-      "mean_activation": 0.03665096312761307,
-      "n_active": 21
-    },
-    {
-      "idx": 33,
-      "label": "error messages and technical problems",
-      "mean_activation": 0.03604097291827202,
-      "n_active": 21
-    },
-    {
-      "idx": 97,
-      "label": "the exact token 'AI' in uppercase letters",
-      "mean_activation": 0.030702022835612297,
-      "n_active": 18
-    },
-    {
-      "idx": 44,
-      "label": "organizing or searching chat histories",
-      "mean_activation": 0.026626884937286377,
-      "n_active": 17
+      "mean_activation": 0.05707855522632599,
+      "n_active": 22
     },
     {
       "idx": 71,
       "label": "OpenAI explicitly by name",
-      "mean_activation": 0.026347104460000992,
-      "n_active": 16
+      "mean_activation": 0.03662702068686485,
+      "n_active": 17
     },
     {
-      "idx": 38,
-      "label": "tool usage questions",
-      "mean_activation": 0.02339025028049946,
-      "n_active": 16
+      "idx": 49,
+      "label": "pricing and free vs paid comparisons",
+      "mean_activation": 0.035246480256319046,
+      "n_active": 13
     },
     {
-      "idx": 124,
-      "label": "message limits or caps",
-      "mean_activation": 0.023156018927693367,
+      "idx": 60,
+      "label": "image generation or images generated",
+      "mean_activation": 0.031653206795454025,
+      "n_active": 13
+    },
+    {
+      "idx": 33,
+      "label": "error messages and technical problems",
+      "mean_activation": 0.02710437774658203,
       "n_active": 13
     },
     {
       "idx": 122,
       "label": "Feature 122",
-      "mean_activation": 0.02272466942667961,
-      "n_active": 14
+      "mean_activation": 0.023875845596194267,
+      "n_active": 11
     },
     {
-      "idx": 86,
-      "label": "Feature 86",
-      "mean_activation": 0.022129066288471222,
+      "idx": 38,
+      "label": "tool usage questions",
+      "mean_activation": 0.021044457331299782,
       "n_active": 12
+    },
+    {
+      "idx": 97,
+      "label": "the exact token 'AI' in uppercase letters",
+      "mean_activation": 0.019895587116479874,
+      "n_active": 9
+    },
+    {
+      "idx": 92,
+      "label": "ChatGPT failing to process inputs",
+      "mean_activation": 0.019739456474781036,
+      "n_active": 11
+    },
+    {
+      "idx": 120,
+      "label": "model or version preference comparisons",
+      "mean_activation": 0.018968725576996803,
+      "n_active": 9
     }
   ]
 }
